@@ -1,0 +1,114 @@
+{
+	"Bulletproof Button": {
+		"prefix": "btn",
+		"body": [
+			"<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->",
+			"<!-- When changing the button color, please be sure to update both the fillcolor and the background-color -->",
+			"<div align=\"center\">",
+			"	<!--[if mso]>",
+			"		<v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" href=\"${1:url}\" linkname=\"Body Button\" style=\"height:45px;v-text-anchor:middle;width:200px;\" stroke=\"f\" fillcolor=\"#ef404e\">",
+			"		<w:anchorlock/>",
+			"		<center>",
+			"		<![endif]-->",
+			"		<a href=\"${1:url}\" linkname=\"Body Button\" style=\"background-color:#ef404e;color:#ffffff;display:inline-block;font-size:18px;font-family:Arial, sans-serif;font-weight:bold;line-height:45px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;text-transform:uppercase;\">Take Action</a>",
+			"		<!--[if mso]>",
+			"		</center>",
+			"		</v:rect>",
+			"	<![endif]-->",
+			"</div>",
+			"<br />",
+			"<!-- END CTA BUTTON -->"
+		],
+		"description": "Bulletproof Button"
+	},
+	"SB4 Affiliate Link": {
+		"prefix": "sb4link",
+		"body": ["<a href=\"[springboard_group:field_sb_group_web_url]\">[springboard_group:group_names]</a>"],
+		"description": "SB4 Affiliate Link"
+	},
+	"Pre-header Spacing": {
+		"prefix": "phs",
+		"body": [
+			"<div style=\"display: none; max-height: 0px; overflow: hidden;\">",
+			"	&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;",
+			"</div>"
+		],
+		"description": "Pre-header Spacing"
+	},
+	"Follow us On Social": {
+		"prefix": "social",
+		"body": ["<p>Follow us on <a linkname=\"body link \" href=\"#\"><strong>Facebook</strong></a> and <a linkname=\"body link \" href=\"#\"><strong>Twitter</strong></a> for the latest updates on civil rights and liberties.</p>"],
+		"description": "Follow us On Social"
+	},
+	"Event": {
+		"prefix": "event",
+		"body": ["<blockquote>", "	<p><a href=\"#\"><strong>Event Title</strong></a><br />", "	Day, Month xx, x p.m. <br />", "	Event location <br />", "	Event Address <br />", "	City, State Zip </p>", "</blockquote>"],
+		"description": "Event blockquote"
+	},
+	"Signature Block": {
+		"prefix": "sig",
+		"body": ["<p><img src=\"${1:url}\" alt=\"${2:ED Name}\" border=\"0\" width=\"90\" /></p>", "<p><strong>${2:ED Name}<br />", "Executive Director, ACLU of ${3:affiliate}</strong></p>"],
+		"description": "Signature with image"
+	},
+	"Affiliate Signature": {
+		"prefix": "asig",
+		"body": ["<p><a linkname=\"signature\" href=\"$1\">ACLU of $2</a></p>"],
+		"description": "Affiliate Signature"
+	},
+	"Confirmation Email and Page": {
+		"prefix": "confirm",
+		"body": [
+			"<p>Dear {% if donation.donation.first_name %}{{ donation.donation.first_name }}{% elseif webform.sbp_first_name %}{{ webform.sbp_first_name }}{% else %}friend{% endif %},<br/><br/></p>",
+			"",
+			"<p>Thank you for taking action to protect civil liberties in [springboard_group:group_names]. This is an important issue and your lawmakers need to hear from you.</p>",
+			"",
+			"<p>Take the next step and share this ${1|action,event|} with your friends on <a href=\"\"><strong>Facebook</strong></a> and <a href=\"\"><strong>Twitter</strong></a>.</p>",
+			"",
+			"<p>Thank you for your support!</p>",
+			"",
+			"<p><a href=\"[springboard_group:field_sb_group_web_url]\">[springboard_group:group_names]</a></p>"
+		],
+		"description": "Confirmation Email and Page"
+	},
+	"Closed Event Message": {
+		"prefix": "eclosed",
+		"body": ["<p><strong style=\"text-transform:uppercase;\">Online registration for this event is now closed!</strong><br />", "Please visit our <a href=\"$1\">website</a> to stay up-to-date with our upcoming events.</p>"],
+		"description": "Closed messaging for event"
+	},
+	"Action closed Message": {
+		"prefix": "expired",
+		"body": ["<p><strong style=\"text-transform:uppercase;\">The action is now expired!</strong><br />", "Please visit our <a href=\"$1\">website</a> to stay up-to-date on our latest actions.</p>"],
+		"description": "Action expiration messaging"
+	},
+	"Recipients": {
+		"prefix": "recipients",
+		"body": ["<p><strong>Message Recipients:</strong><br />", "  Your State Senator<br />", "  Your State Representatives", "</p>"],
+		"description": "Message action Recipients"
+	},
+	"Contact code": {
+		"prefix": "questions",
+		"body": ["<p style=\"padding-right:50px;\"><strong>Questions?</strong> Please contact <a href=\"mailto:$1\">$2</a> or call at $3-$4-$5.</p>"],
+		"description": "Contact code"
+	},
+	"CTA Button": {
+		"prefix": "CTA",
+		"body": [
+			"<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->",
+			"<!-- When changing the button color, please be sure to update both the fillcolor and the background-color -->",
+			"<div align=\"center\">",
+			"  <!--[if mso]>",
+			"    <v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" href=\"#\" linkname=\"Body Button\" style=\"height:45px;v-text-anchor:middle;width:200px;\" stroke=\"f\" fillcolor=\"#ef404e\">",
+			"      <w:anchorlock/>",
+			"      <center>",
+			"        <![endif]-->",
+			"        <a href=\"#\" linkname=\"Body Button\" style=\"background-color:#ef404e;color:#ffffff;display:inline-block;font-size:18px;font-family:Arial, sans-serif;font-weight:bold;line-height:45px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;\">Take Action</a>",
+			"        <!--[if mso]>",
+			"      </center>",
+			"    </v:rect>",
+			"  <![endif]-->",
+			"</div><br />",
+			"<!-- END CTA BUTTON -->"
+		],
+		"description": "CTA Button"
+	}
+}

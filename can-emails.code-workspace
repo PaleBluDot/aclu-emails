@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "./"
+		}
+	],
+	"settings": {
+		/* EDITOR */
+		"workbench.colorTheme": "PS Dark",
+		"editor.fontSize": 14,
+		"editor.formatOnSave": false,
+
+		/* PRETTIER */
+		"prettier.printWidth": 400,
+
+		/* LINTER */
+		"css.lint.float": "error",
+		"css.lint.boxModel": "warning",
+		"css.lint.compatibleVendorPrefixes": "warning",
+		"css.lint.duplicateProperties": "warning",
+		"css.lint.important": "warning",
+		"css.lint.universalSelector": "warning",
+		"css.lint.zeroUnits": "warning",
+		"css.lint.vendorPrefix": "ignore",
+		"less.lint.boxModel": "warning"
+	}
+}
