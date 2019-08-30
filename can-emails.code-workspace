@@ -9,9 +9,12 @@
 		"workbench.colorTheme": "PS Dark",
 		"editor.fontSize": 14,
 		"editor.formatOnSave": false,
+		"editor.formatOnPaste": true,
 
 		/* PRETTIER */
 		"prettier.printWidth": 400,
+		"prettier.jsxBracketSameLine": true,
+		"prettier.useTabs": true,
 
 		/* LINTER */
 		"css.lint.boxModel": "warning",
