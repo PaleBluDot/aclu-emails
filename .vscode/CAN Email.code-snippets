@@ -110,5 +110,16 @@
 			"<!-- END CTA BUTTON -->"
 		],
 		"description": "CTA Button"
+	},
+	"Banner Image": {
+		"prefix": "banner",
+		"body": [
+			"<!-- START CENTERED IMAGE -->",
+			"<div align=\"center\">",
+			"	<a linkname=\"banner image\" href=\"$1\" target=\"_blank\"><img src=\"$2\" width=\"600\" class=\"image-resize\" border=\"0\" alt=\"You're invited!\" /></a>",
+			"</div><br />",
+			"<!-- END CENTERED IMAGE -->"
+		],
+		"description": "Banner Image"
 	}
 }
