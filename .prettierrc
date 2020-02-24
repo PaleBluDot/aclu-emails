@@ -1,7 +1,15 @@
 trailingComma: "es5"
+printWidth: 120
 useTabs: true
 tabWidth: 4
 semi: true
-printWidth: 300
+singleQuote: true
+jsxSingleQuote: true
 jsxBracketSameLine: true
-htmlWhitespaceSensitivity: "css"
+overrides:
+  - files: ["*.md", "*.yaml"]
+    options:
+      tabWidth: 2
+  - files: ["*.html"]
+    options:
+      printWidth: 400

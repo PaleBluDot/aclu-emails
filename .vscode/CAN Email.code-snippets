@@ -1,26 +1,4 @@
 {
-	"Bulletproof Button": {
-		"prefix": "btn",
-		"body": [
-			"<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->",
-			"<!-- When changing the button color, please be sure to update both the fillcolor and the background-color -->",
-			"<div align=\"center\">",
-			"	<!--[if mso]>",
-			"		<v:rect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" href=\"${1:url}\" linkname=\"Body Button\" style=\"height:45px;v-text-anchor:middle;width:200px;\" stroke=\"f\" fillcolor=\"#ef404e\">",
-			"		<w:anchorlock/>",
-			"		<center>",
-			"		<![endif]-->",
-			"		<a href=\"${1:url}\" linkname=\"Body Button\" style=\"background-color:#ef404e;color:#ffffff;display:inline-block;font-size:18px;font-family:Arial, sans-serif;font-weight:bold;line-height:45px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;text-transform:uppercase;\">Take Action</a>",
-			"		<!--[if mso]>",
-			"		</center>",
-			"		</v:rect>",
-			"	<![endif]-->",
-			"</div>",
-			"<br />",
-			"<!-- END CTA BUTTON -->"
-		],
-		"description": "Bulletproof Button"
-	},
 	"SB4 Affiliate Link": {
 		"prefix": "sb4link",
 		"body": ["<a href=\"[springboard_group:field_sb_group_web_url]\">[springboard_group:group_names]</a>"],

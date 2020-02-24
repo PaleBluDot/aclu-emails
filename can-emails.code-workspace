@@ -1,8 +1,14 @@
 {
 	"folders": [
 		{
+			"name": "Notes",
+			"path": "/Users/psanchez/Desktop/dev/Personal/Notes"
+		},
+		{
+			"name": "Email Production",
 			"path": "./"
 		}
+
 	],
 	"settings": {
 		/* EDITOR */
@@ -24,6 +30,7 @@
 		"css.lint.vendorPrefix": "ignore",
 		"less.lint.boxModel": "ignore",
 		"css.lint.float": "ignore",
-		"css.lint.zeroUnits": "ignore"
+		"css.lint.zeroUnits": "ignore",
+		"liveServer.settings.multiRootWorkspaceName": "Email Production"
 	}
 }
