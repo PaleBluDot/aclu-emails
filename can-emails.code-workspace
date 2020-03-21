@@ -12,7 +12,7 @@
 	],
 	"settings": {
 		/* EDITOR */
-		"workbench.colorTheme": "PS Dark",
+		"workbench.colorTheme": "PS Mid-Blue",
 		"editor.fontSize": 14,
 		"editor.formatOnSave": false,
 		"editor.formatOnPaste": true,
