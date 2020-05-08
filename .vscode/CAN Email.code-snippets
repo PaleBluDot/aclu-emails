@@ -30,7 +30,7 @@
 	},
 	"Affiliate Signature": {
 		"prefix": "asig",
-		"body": ["<p><a linkname=\"signature\" href=\"$1\">ACLU of $2</a></p>"],
+		"body": ["<p><strong>ACLU of {affiliate_name}</strong></p>"],
 		"description": "Affiliate Signature"
 	},
 	"Confirmation Email and Page": {
