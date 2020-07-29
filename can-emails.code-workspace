@@ -1,10 +1,6 @@
 {
 	"folders": [
 		{
-			"name": "Notes",
-			"path": "/Users/psanchez/Desktop/dev/Personal/Notes"
-		},
-		{
 			"name": "Email Production",
 			"path": "./"
 		}
@@ -12,10 +8,9 @@
 	],
 	"settings": {
 		/* EDITOR */
-		"workbench.colorTheme": "PS Mid-Blue",
+		"workbench.colorTheme": "Startburst Dark",
 		"editor.fontSize": 14,
 		"editor.formatOnSave": false,
-		"editor.formatOnPaste": true,
 
 		/* PRETTIER */
 		"prettier.printWidth": 400,
