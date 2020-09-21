@@ -160,5 +160,21 @@
 			"ACLU of Wyoming"
 		],
 		"description": "Affiliate Name List"
+	},
+	"Springboard Image": {
+		"prefix": "sbimage",
+		"body": [
+			"<div class=\"hero-item\">",
+			"	<img alt=\"$1\" src=\"$2\" />",
+			"</div>"
+		],
+		"description": "Springboard Image"
+	},
+	"Twitter Meta SB": {
+		"prefix": "metasb",
+		"body": [
+			"<meta name=\"twitter:image\" content=\"https://action.aclu.org/files/aclu/al-willie-s-banner.png\""
+		],
+		"description": "Twitter Meta SB"
 	}
 }
