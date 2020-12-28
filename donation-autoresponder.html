@@ -1,0 +1,226 @@
+<html>
+	<head>
+		<title>ACLU Email</title>
+		<meta content="NOINDEX, NOFOLLOW" name="ROBOTS">
+		<!-- This meta tag tells mobile browser to be responsive --></p>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<style type="text/css">
+			h1, h2, h3, h4, h5, h6 {
+				margin: 0 0 5px 0;
+			}
+
+			p {
+				margin-bottom: 1.35em !important;
+				line-height:inherit;
+			}
+			body {
+				width:100% !important;
+				-webkit-text-size-adjust:100%;
+				-ms-text-size-adjust:100%;
+				margin:0;
+				padding:0;
+			}
+
+			a.logolink > img {
+				max-width: 190px;
+				height: auto;
+			}
+
+			img {
+				outline:none;
+				text-decoration:none;
+				-ms-interpolation-mode: bicubic;
+			}
+
+			a img {
+				border:none;
+			}
+
+			table td {
+				border-collapse:collapse;
+			}
+
+			#outlook a {
+				padding:0;
+			}
+
+			.ExternalClass {
+				width:100% !important;
+			}
+
+			.ExternalClass,
+			.ExternalClass p,
+			.ExternalClass span,
+			.ExternalClass font,
+			.ExternalClass td,
+			.ExternalClass div {
+				line-height: 100%;
+				}
+
+			.preheader {
+				display:none !important;
+			}
+
+			.logolink img {
+				width:250px;
+				height:auto;
+			}
+
+			@media screen and (max-width: 600px) {
+				table[class=emailwrapto100pc],
+				td [class=emailwrapto100pc],
+				img[class=emailwrapto100pc] {
+					width:100% !important;
+					height:auto !important;
+					white-space:inherit !important;
+					text-align: left !important;
+					line-height:inherit !important;
+				}
+
+				table[class=emailnomob],
+				td[class=emailnomob],
+				img[class=emailnomob],
+				span[class=emailnomob] {
+					display:none !important;
+				}
+
+				td [class=emailwrapto100pclowpad]
+				{
+					width:100% !important;
+					height:auto !important;
+					white-space:inherit !important;
+					text-align: left !important;
+					line-height:inherit !important;
+					padding-left:5px !important;
+				}
+				*[class=emailcolsplit] {
+					width:100%!important;
+					float:left!important;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!---UPDATE PRE-HEADER TEXT---->
+		<div class="preheader" style="font-size: 1px; display: none !important;">[springboard_group:field_sb_group_mobilename]: Thank you for your support!</div>
+
+		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" id="main table" style="background-color:#ffffff;" width="100%">
+			<tbody>
+				<tr>
+					<td style="display:none !important">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="left" valign="top">
+						<table role="presentation" align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" id="content table" style="table-layout:fixed;" width="600">
+							<tbody>
+								<tr>
+									<td style="color:#373e44; font-family: Arial, Helvetica, sans-serif; font-size: 16px; margin-top: 10px; margin-bottom:0px; margin-right:10px; margin-left:10px; padding-top:10px; padding-bottom:0px; padding-left:10px; padding-right:10px">
+										<!----UPDATE MAIN CONTENT---->
+										<p>%html_message</p>
+
+										<!-- #### BEGIN TRANSACTION SUMMARY #### -->
+										<table role="table" width="450" border="0" cellspacing="0" cellpadding="5" bgcolor="#FAFDFF">
+										<tr valign="top">
+											<td colspan="2"><strong>Transaction Summary</strong></td>
+										</tr>
+										<tr valign="top">
+											<td>Confirmation code:</td>
+											<td>[donation:order:order-id]</td>
+										</tr>
+										<tr valign="top">
+											<td width="170">Billing name:</td>
+											<td width="260">[donation:first_name]&nbsp;[donation:last_name]</td>
+										</tr>
+										<tr valign="top">
+											<td width="170">Email:</td>
+											<td width="260">[donation:order:mail]</td>
+										</tr>
+										<tr valign="top">
+											<td valign=top>Billing address:</td>
+											<td>[donation:order:commerce_customer_billing]</td>
+										</tr>
+										{% if webform.honoree_first_name %}
+										<tr valign="top">
+											<td valign=top>Honoree:</td>
+											<td>{{webform.honoree_first_name}} {{webform.honoree_last_name}}</td>
+										</tr>
+										{% endif %}
+										{% if webform.tributee_first_name %}
+											<tr valign="top">
+											<td valign=top>Tributee:</td>
+											<td>{{webform.tributee_first_name}} {{webform.tributee_last_name}}</td>
+										</tr>
+										{% endif %}
+										<tr valign="top">
+											<td valign="top">Payment Method:</td>
+											<td>{{donation.donation.payment_method}}</td>
+										</tr>
+										{% if donation.donation.payment_method != "paypal" %}
+										<tr valign="top">
+											<td valign="top">Credit card:</td>
+											<td>[donation:card_type]<br />***********[donation:card_number]</td>
+										</tr>
+										{% endif %}
+										<tr valign="top">
+											<td width="170">Donation amount:</td>
+											<td width="260">[donation:amount]</td>
+										</tr>
+										<tr valign="top">
+											<td width="170">Donation type:</td>
+											<td width="260">{% if donation.donation.recurs_monthly == "Yes" %}Monthly{% else %}One-Time{% endif %}</td>
+										</tr>
+										</table><br /><br />
+										<!-- #### END TRANSACTION SUMMARY #### -->
+
+										Please print or save it for your records. Once again, thank you for your support.<br /><br />
+
+										Contributions to ACLU foundations are tax deductible, while ACLU membership dues are not. [ <a style="font: inherit; text-decoration: underline" href="http://www.aclu.org/unionandfoundation"><b>?</b></a> ]<br /><br />
+
+										<!----LOGO ---->
+										<a href="[springboard_group:field_sb_group_web_url]" style="max-width: 190px; height: auto;" class="x_logolink logolink">[springboard_group:field_sb_group_logo]</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- FOOTER -->
+		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600">
+			<tbody>
+				<tr>
+					<td style="text-align:left;font-family: Arial,'Helvetica Neue',sans-serif;font-size:13px;color:#505050;line-height:19px;padding:25px 15px 15px 15px;border-top:1px solid #b8b8b8;">
+						<!-- START OF SOCIAL SHARE -->
+						<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
+							<tbody>
+								<tr>
+									<td align="center" valign="top" class="footer-right" style="padding:40px 0px 0px 0px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#888888;text-align:center;">
+										<a href="[springboard_group:field_sb_group_fb_url]" target="_blank"><img src="https://action.aclu.org/files/aclu/upload/national/confirmation_email/icon-fb.png" border="0" alt="Facebook" width="33" /></a> &nbsp;
+										&nbsp; <a href="[springboard_group:field_sb_group_tw_url]" target="_blank"><img src="https://action.aclu.org/files/aclu/upload/national/confirmation_email/icon-tw.png" border="0" alt="Twitter" width="33" /></a> &nbsp;
+										&nbsp; <a href="https://www.instagram.com/acluofarizona" target="_blank"><img src="https://action.aclu.org/files/aclu/upload/national/confirmation_email/icon-insta.png" border="0" alt="Instagram" width="33" /></a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!-- END OF SOCIAL SHARE -->
+					</td>
+				</tr>
+				<tr>
+					<td align="center" class="footer-text" style="color:#888888;font-family: Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:20px;padding:15px;">
+						<!-- START FOOTER INFO -->
+						<br /> We respect your right to privacy &ndash; <a href="[springboard_group:field_sb_group_privacy_url]" linkname="Privacy" style="color:#888888;">view our policy</a>.<br
+						/>
+						<br /> This email was sent by:<br />
+						[springboard_group:field_sb_group_mobilename]<br />
+						[springboard_group:field_sb_group_address]<br />
+						<br />
+						<!-- END FOOTER INFO -->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- START OF FOOTER TABLE -->
+	</body>
+</html>
