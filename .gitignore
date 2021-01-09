@@ -1,11 +1,11 @@
-# files to Exlude #
+# files to Exclude #
 ######################
 vsc-extension-quickstart.md
 *.vscodeignore
 *.code-workspace
 .netlify
 
-# Directories to Exlude #
+# Directories to Exclude #
 ######################
 /highlight-files
 /node_modules
