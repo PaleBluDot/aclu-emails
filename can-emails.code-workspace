@@ -4,9 +4,13 @@
 			"name": "Email Production",
 			"path": "./"
 		}
-
 	],
 	"settings": {
+		"[html]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"editor.wordWrapColumn": 80,
+			"editor.formatOnSave": false
+		},
 		/* EDITOR */
 		"workbench.colorTheme": "Startburst Dark",
 		"editor.fontSize": 14,
@@ -26,6 +30,11 @@
 		"less.lint.boxModel": "ignore",
 		"css.lint.float": "ignore",
 		"css.lint.zeroUnits": "ignore",
-		"liveServer.settings.multiRootWorkspaceName": "Email Production"
+		"liveServer.settings.multiRootWorkspaceName": "Email Production",
+		"cSpell.allowCompoundWords": false,
+		"cSpell.maxNumberOfProblems": 100,
+		"cSpell.numSuggestions": 8,
+		"cSpell.minWordLength": 4,
+		"cSpell.enabledLanguageIds": ["markdown", "plaintext", "html"]
 	}
 }

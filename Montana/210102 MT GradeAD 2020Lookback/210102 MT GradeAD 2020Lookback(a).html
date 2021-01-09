@@ -268,17 +268,21 @@
 						<p><strong>Thank you for supporting our work. It's people like you who keep us going!</strong></p>
 
 						<!-- START SIGNATURE PHOTO, NAME, TITLE -->
-						{if affiliate_ed_src}<p><img src="{affiliate_ed_src}" alt="{affiliate_ed_name}'s headshot'" border="0" width="90" /></p>{/if}
-						<p><strong>{affiliate_ed_name}<br />
-						Executive Director, ACLU of {affiliate_name}</strong></p>
+						<!-- DEFINE WHO IS THE SIGNER IN THE ADVANCED TAB. {signature = 'ed'} WILL SHOW THE ED'S SIGNATURE. YOU CAN FIND WHAT VARIABLES TO USE IN THE DIY GUIDE. -->
+						{signature = 'ed'}
+
+						<!-- THIS INCLUDE SHOULD REMAIN IF YOU ARE USING A SIGNER FROM THE FILE. REMOVE THIS INCLUDE AND USE THE SNIPPET BELOW FOR CUSTOM SIGNATURES. -->
+						{include "affiliate_signatures"}
 						<!-- END SIGNATURE PHOTO, NAME, TITLE -->
 						<!-- END BODY CONTENT -->
 					</td>
 				</tr>
 			</tbody>
 		</table>
+		<!-- THIS PULLS IN THE FOOTER AND YOUR INFORMATION BASED ON THE CAMPAIGN NAME. IF YOU NEED TO UPDATE ANY INFORMATION IN THE FOOTER, CONTACT CANSUPPORT@ACLU.ORG TO MAKE THE UPDATE. -->
 		{include "affiliate-footer"}
-		<!-- REMOVE affiliate_tracking FROM TEXT VERSION -->
-		{affiliate_tracking}
+		<!-- THIS ADDS A LITMUS TRACKING CODE FOR ENGAGEMENT. REMOVE affiliate_tracking FROM TEXT VERSION ONLY. -->
+		<style data-ignore-inlining>@media (prefers-color-scheme: dark) { #_t::before {content:url('https://i3bfj9pl.emltrk.com/v2/i3bfj9pl?rd&d={email_id}&t={blast_id}');}} @media (prefers-color-scheme: light) { #_t::before {content:url('https://i3bfj9pl.emltrk.com/v2/i3bfj9pl?rl&d={email_id}&t={blast_id}');}} @media print{ #_t {background-image:url('https://i3bfj9pl.emltrk.com/v2/i3bfj9pl?p&d={email_id}&t={blast_id}');}} div.OutlookMessageHeader {background-image:url('https://i3bfj9pl.emltrk.com/v2/i3bfj9pl?f&d={email_id}&t={blast_id}')} table.moz-email-headers-table {background-image:url('https://i3bfj9pl.emltrk.com/v2/i3bfj9pl?f&d={email_id}&t={blast_id}')} blockquote #_t {background-image:url('https://i3bfj9pl.emltrk.com/v2/i3bfj9pl?f&d={email_id}&t={blast_id}')} #MailContainerBody #_t {background-image:url('https://i3bfj9pl.emltrk.com/v2/i3bfj9pl?f&d={email_id}&t={blast_id}')}</style><div id="_t"></div>
+		<img src="https://i3bfj9pl.emltrk.com/v2/i3bfj9pl?d={email_id}&t={blast_id}" width="1" height="1" border="0" alt="" />
 	</body>
 </html>
