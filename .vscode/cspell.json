@@ -1,23 +1,30 @@
 {
-  "version": "0.1",
-  "language": "en",
-  "words": [
-    "cta",
-    "diy",
-    "emailbodytext",
-    "emailwrapto",
-    "ios",
-    "IPHONE",
-    "lspace",
-    "mso",
-    "preheader",
-    "rspace",
-    "sidebox",
-    "tagname",
-    "tsmerge",
-    "valign",
-    "quickstart"
-  ],
-  "flagWords": ["hte", "hate"],
-  "ignoreWords": ["ehthumbs"]
+    "version": "0.1",
+    "language": "en",
+    "words": [
+        "cta",
+        "diy",
+        "emailbodytext",
+        "emailwrapto",
+        "ios",
+        "IPHONE",
+        "latinx",
+        "lspace",
+        "mso",
+        "preheader",
+        "quickstart",
+        "rspace",
+        "sidebox",
+        "tagname",
+        "tsmerge",
+        "valign"
+    ],
+    "flagWords": [
+        "hte",
+        "hate"
+    ],
+    "ignoreWords": [
+        "bgcolor",
+        "ehthumbs"
+    ]
 }

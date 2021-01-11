@@ -5,5 +5,10 @@
 		"postcss",
 		"scss",
 		"html"
-	]
+	],
+	"cSpell.allowCompoundWords": false,
+	"cSpell.maxNumberOfProblems": 100,
+	"cSpell.numSuggestions": 8,
+	"cSpell.minWordLength": 2,
+	"cSpell.enabledLanguageIds": ["markdown", "plaintext", "html"]
 }
