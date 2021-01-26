@@ -2,6 +2,8 @@
     "version": "0.1",
     "language": "en",
     "words": [
+        "advo",
+        "COVID",
         "cta",
         "diy",
         "emailbodytext",
@@ -12,19 +14,26 @@
         "lspace",
         "mso",
         "preheader",
-        "quickstart",
         "rspace",
         "sidebox",
         "tagname",
         "tsmerge",
-        "valign"
+        "valign",
+        "xyz"
     ],
     "flagWords": [
         "hte",
-        "hate"
+        "hate",
+        "insurrection",
+        "terrorism"
     ],
     "ignoreWords": [
         "bgcolor",
-        "ehthumbs"
+        "changemaker",
+        "ehthumbs",
+        "evers",
+        "lege",
+        "quickstart",
+        "werk"
     ]
 }
