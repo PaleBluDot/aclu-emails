@@ -35,17 +35,7 @@
 	},
 	"Confirmation Email and Page": {
 		"prefix": "confirm",
-		"body": [
-			"<p>Dear {% if donation.donation.first_name %}{{ donation.donation.first_name }}{% elseif webform.sbp_first_name %}{{ webform.sbp_first_name }}{% else %}friend{% endif %},<br/><br/></p>",
-			"",
-			"<p>Thank you for taking action to protect civil liberties in [springboard_group:group_names]. This is an important issue and your lawmakers need to hear from you.</p>",
-			"",
-			"<p>Take the next step and share this ${1|action,event|} with your friends on <a href=\"\"><strong>Facebook</strong></a> and <a href=\"\"><strong>Twitter</strong></a>.</p>",
-			"",
-			"<p>Thank you for your support!</p>",
-			"",
-			"<p><a href=\"[springboard_group:field_sb_group_web_url]\">[springboard_group:group_names]</a></p>"
-		],
+		"body": ["<p>Dear {% if donation.donation.first_name %}{{ donation.donation.first_name }}{% elseif webform.sbp_first_name %}{{ webform.sbp_first_name }}{% else %}friend{% endif %},<br/><br/></p>", "", "<p>Thank you for taking action to protect civil liberties in [springboard_group:group_names]. This is an important issue and your lawmakers need to hear from you.</p>", "", "<p>Take the next step and share this ${1|action,event|} with your friends on <a href=\"\"><strong>Facebook</strong></a> and <a href=\"\"><strong>Twitter</strong></a>.</p>", "", "<p>Thank you for your support!</p>", "", "<p><a href=\"[springboard_group:field_sb_group_web_url]\">[springboard_group:group_names]</a></p>"],
 		"description": "Confirmation Email and Page"
 	},
 	"Closed Event Message": {
@@ -164,7 +154,7 @@
 	},
 	"Twitter Meta SB": {
 		"prefix": "metasb",
-		"body": ["<meta name=\"twitter:image\" content=\"https://action.aclu.org/files/aclu/al-willie-s-banner.png\""],
+		"body": ["<meta name=\"twitter:image\" content=\"https://action.aclu.org/files/aclu/al-willie-s-banner.png\" />"],
 		"description": "Twitter Meta SB"
 	},
 	"Third-party disclaimer": {
@@ -174,15 +164,7 @@
 	},
 	"Text for correction emails": {
 		"prefix": "correction",
-		"body": [
-			"<!-- DISPLAY CORRECTION MESSAGE. REMOVE CODE BETWEEN COMMENTS TO HIDE -->",
-			"<tr>",
-			"\t<td class=\"emailbodytext\" style=\"color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:22px;padding:10px 0px 5px 0px;border-bottom:1px solid #d4d4d4;\" valign=\"top\">",
-			"\t\t<p>This is a correction statement.</p>",
-			"\t</td>",
-			"</tr>",
-			"<!-- DISPLAY A VIEW ON BROWSER LINK -->"
-		],
+		"body": ["<!-- DISPLAY CORRECTION MESSAGE. REMOVE CODE BETWEEN COMMENTS TO HIDE -->", "<tr>", "\t<td class=\"emailbodytext\" style=\"color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:22px;padding:10px 0px 5px 0px;border-bottom:1px solid #d4d4d4;\" valign=\"top\">", "\t\t<p>This is a correction statement.</p>", "\t</td>", "</tr>", "<!-- DISPLAY A VIEW ON BROWSER LINK -->"],
 		"description": "Text for correction emails"
 	},
 	"Topper Table": {

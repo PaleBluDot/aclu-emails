@@ -10,5 +10,11 @@
 	"cSpell.maxNumberOfProblems": 100,
 	"cSpell.numSuggestions": 8,
 	"cSpell.minWordLength": 2,
-	"cSpell.enabledLanguageIds": ["markdown", "plaintext", "html"]
+	"cSpell.enabledLanguageIds": [
+		"markdown",
+		"plaintext",
+		"html"
+	],
+	"prettier.requireConfig": true,
+	"prettier.jsxBracketSameLine": true
 }
