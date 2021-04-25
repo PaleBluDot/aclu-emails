@@ -1,6 +1,6 @@
 {
   "doctype-first": true,
-  "doctype-html5": true,
+  "doctype-html5": false,
   "head-script-disabled": true,
   "style-disabled:": false,
   "title-required": true,

@@ -1,6 +1,5 @@
-
 endOfLine: lf
-printWidth: 800
+printWidth: 900
 useTabs: true
 tabWidth: 2
 jsxBracketSameLine: true
