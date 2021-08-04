@@ -1,11 +1,9 @@
 {
-	"stylelint.snippet": ["css", "less", "postcss", "scss", "html"],
+	"stylelint.snippet": ["css", "html"],
 	"cSpell.allowCompoundWords": false,
 	"cSpell.maxNumberOfProblems": 100,
 	"cSpell.numSuggestions": 8,
 	"cSpell.minWordLength": 2,
 	"cSpell.enabledLanguageIds": ["markdown", "plaintext", "html"],
-	"prettier.requireConfig": true,
-	"prettier.jsxBracketSameLine": true,
 	"editor.formatOnSave": false
 }

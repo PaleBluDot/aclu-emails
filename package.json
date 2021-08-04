@@ -1,0 +1,38 @@
+{
+  "name": "aclu-emails",
+  "version": "1.0.0",
+  "description": "A collection of all the emails I have coded for the ACLU.",
+  "main": ".eleventy.js",
+  "keywords": [],
+  "author": "Pavel Sanchez",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env ELEVENTY_ENV=dev concurrently \"npm run clean\"  \"npm run dev\" \"npm run prettier\"",
+    "dev": "eleventy --serve",
+    "prepare": "husky install",
+    "clean": "rm -r dist",
+    "pa11y": "pa11y ./dist/templates > errors.json",
+    "prettier": "npx prettier --write dist",
+    "spellcheck": "npm cspell \"src/**\"",
+    "lint": "concurrently \"npm run pa11y\"  \"npm run dev\"",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy && npm run prettier"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.3",
+    "cspell": "^5.6.6",
+    "dotenv": "^10.0.0",
+    "husky": "^7.0.0",
+    "pa11y": "^5.3.0",
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaleBluDot/aclu-emails.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PaleBluDot/aclu-emails/issues"
+  },
+  "homepage": "https://github.com/PaleBluDot/aclu-emails#readme"
+}

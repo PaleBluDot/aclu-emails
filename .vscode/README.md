@@ -4,12 +4,8 @@ The purpose of this folder is to make a shareable VS codes settings that will be
 
 ## Recomended Extentions
 
-1. bracket-pair-colorizer
-2. code-spell-checker
-3. htmlhint
-4. liveserver
-5. htmltagwrap
-6. indent-rainbow
+1. code-spell-checker
+2. htmlhint
 
 ## Snippets
 
