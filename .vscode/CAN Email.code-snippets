@@ -325,5 +325,14 @@
 			],
 			"description": "Twitter Meta SB",
 			"prefix": "metasb"
-	}
+	},
+	"Old email FM": {
+  "prefix": "title",
+  "body": [
+    "---",
+    "title: $1",
+    "---"
+  ],
+  "description": "Old email FM"
+}
 }
