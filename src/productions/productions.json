@@ -1,5 +1,5 @@
-
 {
 	"tags": "templates",
-	"permalink": "./{{affiliate}}/{{ title }}/{{ title | slug }}.html"
+	"permalink": "./{{affiliate}}/{{ title | slug }}.html",
+	"date": "Created"
 }
