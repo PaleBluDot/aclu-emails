@@ -7,7 +7,7 @@
   "author": "Pavel Sanchez",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env ELEVENTY_ENV=dev concurrently \"npm run clean\"  \"npm run dev\" \"npm run prettier\"",
+    "start": "concurrently \"npm run clean\"  \"npm run dev\" \"npm run prettier\"",
     "dev": "eleventy --serve",
     "prepare": "husky install",
     "clean": "rm -r dist",
@@ -15,7 +15,7 @@
     "prettier": "npx prettier --write dist",
     "spellcheck": "npm cspell \"src/**\"",
     "lint": "concurrently \"npm run pa11y\"  \"npm run dev\"",
-    "build": "cross-env ELEVENTY_ENV=prod eleventy && npm run prettier"
+    "build": "eleventy && npm run prettier"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
