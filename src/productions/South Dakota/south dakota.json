@@ -1,4 +1,5 @@
 {
 	"affiliate": "South Dakota",
-	"tags": "South Dakota, SD"
+	"tags": "South Dakota, SD",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

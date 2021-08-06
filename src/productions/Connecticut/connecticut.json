@@ -1,4 +1,5 @@
 {
 	"affiliate": "Connecticut",
-	"tags": "Connecticut, CT"
+	"tags": "Connecticut, CT",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

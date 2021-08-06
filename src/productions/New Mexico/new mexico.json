@@ -1,4 +1,5 @@
 {
 	"affiliate": "New Mexico",
-	"tags": "New Mexico, NM"
+	"tags": "New Mexico, NM",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

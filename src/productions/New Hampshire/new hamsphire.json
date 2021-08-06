@@ -1,4 +1,5 @@
 {
 	"affiliate": "New Hampshire",
-	"tags": "New Hampshire, NH"
+	"tags": "New Hampshire, NH",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

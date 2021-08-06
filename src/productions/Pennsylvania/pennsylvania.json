@@ -1,4 +1,5 @@
 {
 	"affiliate": "Pennsylvania",
-	"tags": "Pennsylvania, PA"
+	"tags": "Pennsylvania, PA",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

@@ -1,4 +1,5 @@
 {
 	"affiliate": "Vermont",
-	"tags": "Vermont, VT"
+	"tags": "Vermont, VT",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

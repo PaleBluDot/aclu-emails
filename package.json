@@ -9,16 +9,14 @@
   "scripts": {
     "start": "concurrently \"npm run clean\" \"npm run dev\" \"npm run prettier\"",
     "dev": "eleventy --serve",
-    "prepare": "husky install",
     "clean": "rm -r dist",
-    "pa11y": "pa11y ./dist/templates > errors.json",
     "prettier": "npx prettier --write dist",
-    "spellcheck": "npm cspell \"src/**\"",
+    "spellcheck": "npx cspell \"src/**\"",
     "lint": "concurrently \"npm run pa11y\"  \"npm run dev\"",
-    "build": "eleventy"
+    "build": "eleventy && npm run prettier"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "0.11.0",
     "concurrently": "^5.3.0",
     "cross-env": "^7.0.3",
     "cspell": "^5.6.6",

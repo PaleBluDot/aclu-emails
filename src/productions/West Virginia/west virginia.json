@@ -1,4 +1,5 @@
 {
 	"affiliate": "West Virginia",
-	"tags": "West Virginia, WV"
+	"tags": "West Virginia, WV",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

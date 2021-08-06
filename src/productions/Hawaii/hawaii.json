@@ -1,4 +1,5 @@
 {
 	"affiliate": "Hawaii",
-	"tags": "Hawaii, HI"
+	"tags": "Hawaii, HI",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

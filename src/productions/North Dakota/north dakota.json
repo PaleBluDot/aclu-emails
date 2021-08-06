@@ -1,4 +1,5 @@
 {
 	"affiliate": "North Dakota",
-	"tags": "North Dakota, ND"
+	"tags": "North Dakota, ND",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

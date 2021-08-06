@@ -1,4 +1,5 @@
 {
 	"affiliate": "Missouri",
-	"tags": "Missouri, MO"
+	"tags": "Missouri, MO",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

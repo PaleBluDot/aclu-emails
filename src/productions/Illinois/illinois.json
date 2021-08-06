@@ -1,4 +1,5 @@
 {
 	"affiliate": "Illinois",
-	"tags": "Illinois, IL"
+	"tags": "Illinois, IL",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

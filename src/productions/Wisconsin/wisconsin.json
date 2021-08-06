@@ -1,4 +1,5 @@
 {
 	"affiliate": "Wisconsin",
-	"tags": "Wisconsin, WI"
+	"tags": "Wisconsin, WI",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

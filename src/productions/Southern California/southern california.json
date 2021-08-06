@@ -1,4 +1,5 @@
 {
 	"affiliate": "Southern California",
-	"tags": "Southern California, CS"
+	"tags": "Southern California, CS",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }

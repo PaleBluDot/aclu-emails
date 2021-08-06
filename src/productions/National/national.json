@@ -1,0 +1,5 @@
+{
+	"affiliate": "National",
+	"tags": "National, NN",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+}

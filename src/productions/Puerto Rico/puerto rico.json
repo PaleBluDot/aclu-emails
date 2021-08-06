@@ -1,4 +1,5 @@
 {
 	"affiliate": "Puerto Rico",
-	"tags": "Puerto Rico, PR"
+	"tags": "Puerto Rico, PR",
+	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
 }
