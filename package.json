@@ -16,7 +16,7 @@
     "build": "eleventy && npm run prettier"
   },
   "devDependencies": {
-    "@11ty/eleventy": "0.11.0",
+    "@11ty/eleventy": "^0.12.1",
     "concurrently": "^5.3.0",
     "cross-env": "^7.0.3",
     "cspell": "^5.6.6",
