@@ -10,7 +10,6 @@ desktop.ini
 ######################
 /highlight-files
 /node_modules
-/dist
 /build
 
 # secrets and errors
@@ -58,3 +57,4 @@ Thumbs.db
 .AppleDouble
 .LSOverride
 test.*
+report.*

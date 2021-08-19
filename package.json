@@ -7,13 +7,13 @@
   "author": "Pavel Sanchez",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npm run clean\" \"npm run dev\" \"npm run prettier\"",
+    "start": "cross-env ELEVENTY_ENV=prod concurrently \"npm run clean\" \"npm run dev\" \"npm run prettier\" ",
     "dev": "eleventy --serve",
     "clean": "rm -r dist",
     "prettier": "npx prettier --write dist",
     "spellcheck": "npx cspell \"src/**\"",
-    "lint": "concurrently \"npm run pa11y\"  \"npm run dev\"",
-    "build": "eleventy && npm run prettier"
+    "lint": "emailhint dist/.test/**",
+    "build": "cross-env ELEVENTY_ENV=prod cross-env env=production eleventy && npm run prettier"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
