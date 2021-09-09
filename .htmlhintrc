@@ -25,5 +25,5 @@
   "inline-script-disabled": true,
   "inline-style-disabled": false,
   "space-tab-mixed-disabled": "tab",
-  "spec-char-escape": true,
+  "spec-char-escape": true
 }
