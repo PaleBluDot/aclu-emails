@@ -223,8 +223,8 @@
 	"Recipients": {
 			"body": [
 					"<p><strong>Message Recipients:</strong><br />",
-					"  Your State Senator<br />",
-					"  Your State Representatives",
+					"\tYour State Senator<br />",
+					"\tYour State Representatives",
 					"</p>"
 			],
 			"description": "Message action Recipients",
