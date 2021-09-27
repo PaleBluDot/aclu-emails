@@ -1,6 +1,6 @@
 {
   "name": "aclu-emails",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A collection of all the emails I have coded for the ACLU.",
   "main": ".eleventy.js",
   "author": "Pavel Sanchez",
@@ -9,7 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/PaleBluDot/aclu-emails.git"
   },
-  "homepage": "https://github.com/PaleBluDot/aclu-emails#readme",
   "scripts": {
     "start": "npm-run-all clean dev",
     "dev": "eleventy --serve",
@@ -35,11 +34,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx lint-staged && git add ."
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.(js|md|html)": [
+    "*.(js|md|css|html)": [
       "npm run test"
     ]
   }
