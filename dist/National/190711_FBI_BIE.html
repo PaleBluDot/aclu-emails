@@ -1,226 +1,214 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<style type="text/css">
-			h1,
-			h2,
-			h3,
-			h4,
-			h5,
-			h6 {
-				margin: 0 0 5px 0;
-			}
-			p {
-				margin-top: 0px;
-				margin-bottom: 20px;
-			}
-			body {
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<style type="text/css">
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin: 0 0 5px 0;
+		}
+		p {
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0px;
+			padding: 0px;
+		}
+		a,
+		a:visited,
+		a:hover,
+		a:active {
+			color: #0055aa;
+		}
+		img {
+			outline: none;
+			text-decoration: none;
+			-ms-interpolation-mode: bicubic;
+		}
+		a img {
+			border: none;
+		}
+		table,
+		td {
+			border-spacing: 0px;
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+		/* Remove spacing between tables in Outlook 2007 and up */
+		.preheader {
+			display: none !important;
+			visibility: hidden;
+			opacity: 0;
+			color: transparent;
+			height: 0;
+			width: 0;
+		}
+		ul {
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+		li {
+			padding-bottom: 15px;
+			font-family: Arial, 'Helvetica Neue', sans-serif;
+			font-size: 14px;
+			line-height: 22px;
+			list-style-type: square;
+		}
+		@media screen and (max-width: 480px) {
+			table.emailwrapto100pc {
 				width: 100% !important;
-				-webkit-text-size-adjust: 100%;
-				-ms-text-size-adjust: 100%;
-				margin: 0px;
-				padding: 0px;
+				white-space: inherit !important;
+				line-height: inherit !important
 			}
-			a,
-			a:visited,
-			a:hover,
-			a:active {
-				color: #0055aa;
+			td.logo-spacing {
+				padding-left: 10px !important;
 			}
-			img {
-				outline: none;
-				text-decoration: none;
-				-ms-interpolation-mode: bicubic;
+			td.emailbodytext {
+				font-size: 15px !important;
+				line-height: 23px !important;
+				padding-right: 10px !important;
+				padding-left: 10px !important;
 			}
-			a img {
-				border: none;
+			.image-resize {
+				width: 100% !important;
 			}
-			table,
-			td {
-				border-spacing: 0px;
-				border-collapse: collapse;
-				mso-table-lspace: 0pt;
-				mso-table-rspace: 0pt;
+			table.footer-left,
+			table.footer-right {
+				width: 100% !important;
+				margin-top: 10px !important;
 			}
-			/* Remove spacing between tables in Outlook 2007 and up */
-			.preheader {
-				display: none !important;
-				visibility: hidden;
-				opacity: 0;
-				color: transparent;
-				height: 0;
-				width: 0;
+			table.footer-right {
+				float: left !important;
+				margin-top: 25px !important;
 			}
-			ul {
-				margin-top: 0px;
-				margin-bottom: 0px;
+			td.footer-left,
+			td.footer-right,
+			td.footer-text {
+				text-align: center !important;
 			}
-			li {
-				padding-bottom: 15px;
-				font-family: Arial, "Helvetica Neue", sans-serif;
-				font-size: 14px;
-				line-height: 22px;
-				list-style-type: square;
+			td.footer-right {
+				padding: 0px !important;
 			}
-			@media screen and (max-width: 480px) {
-				table.emailwrapto100pc {
-					width: 100% !important;
-					white-space: inherit !important;
-					line-height: inherit !important;
-				}
-				td.logo-spacing {
-					padding-left: 10px !important;
-				}
-				td.emailbodytext {
-					font-size: 15px !important;
-					line-height: 23px !important;
-					padding-right: 10px !important;
-					padding-left: 10px !important;
-				}
-				.image-resize {
-					width: 100% !important;
-				}
-				table.footer-left,
-				table.footer-right {
-					width: 100% !important;
-					margin-top: 10px !important;
-				}
-				table.footer-right {
-					float: left !important;
-					margin-top: 25px !important;
-				}
-				td.footer-left,
-				td.footer-right,
-				td.footer-text {
-					text-align: center !important;
-				}
-				td.footer-right {
-					padding: 0px !important;
-				}
-				td.footer-text {
-					padding: 10px 20px 20px 20px !important;
-				}
+			td.footer-text {
+				padding: 10px 20px 20px 20px !important;
 			}
-		</style>
-	</head>
+		}
+	</style>
+</head>
 
-	<body>
-		<!-- START PREHEADER TEXT -->
-		<span class="preheader" style="display: none !important; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0">##SM_RULE_360 Email Salutation##, we can’t let history repeat itself.</span>
-		<div style="display: none; max-height: 0px; overflow: hidden">
-			&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
-		</div>
-		<!-- END PREHEADER TEXT -->
-		<table align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600">
-			<tbody>
-				<tr>
-					<td align="right" class="emailbodytext" style="color: #666666; font-family: Arial, 'Helvetica Neue', sans-serif; font-size: 11px; line-height: 19px; text-align: right; padding-bottom: 10px; padding-left: 10px; padding-right: 10px" valign="top">##SM_RULE_Yahoo Unsubscribe##</td>
-				</tr>
-				<tr>
-					<td align="left" style="padding-bottom: 10px" class="logo-spacing">
-						<!-- START LOGO IMAGE -->
-						<a alias="logo" href="https://action.aclu.org/petition/stop-fbi-surveillance-black-activists?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted##" linkname="logo" target="_blank"><img alt="ACLU" src="https://ms.clicks.actions.aclu.org/img/global/aclu-logo-white-on-blue.png" border="0" width="130" style="display: block" /></a>
-						<!-- END LOGO IMAGE -->
-					</td>
-				</tr>
-				<tr>
-					<td class="emailbodytext" style="color: #3c3532; font-family: Arial, 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 22px; padding: 15px 0px 20px 0px; border-bottom: 1px solid #d4d4d4" valign="top">
-						<!-- START BODY CONTENT -->
+<body>
+	<!-- START PREHEADER TEXT -->
+	<span class="preheader" style="display:none !important;visibility:hidden;opacity:0;color:transparent;height:0;width:0;">##SM_RULE_360 Email Salutation##, we can’t let history repeat itself.</span>
+	<div style="display: none; max-height: 0px; overflow: hidden;">
+		&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+	</div>
+	<!-- END PREHEADER TEXT -->
+	<table align="center" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="600">
+		<tbody>
+			<tr>
+				<td align="right" class="emailbodytext" style="color:#666666;font-family: Arial,'Helvetica Neue',sans-serif;font-size:11px;line-height:19px;text-align:right;padding-bottom:10px;padding-left:10px;padding-right:10px" valign="top">##SM_RULE_Yahoo Unsubscribe##</td>
+			</tr>
+			<tr>
+				<td align="left" style="padding-bottom:10px;" class="logo-spacing">
+					<!-- START LOGO IMAGE -->
+					<a alias="logo" href="https://action.aclu.org/petition/stop-fbi-surveillance-black-activists?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted##" linkname="logo" target="_blank"><img alt="ACLU" src="https://ms.clicks.actions.aclu.org/img/global/aclu-logo-white-on-blue.png" border="0" width="130" style="display:block;" /></a>
+					<!-- END LOGO IMAGE -->
+				</td>
+			</tr>
+			<tr>
+				<td class="emailbodytext" style="color:#3c3532;font-family: Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:22px;padding:15px 0px 20px 0px;border-bottom:1px solid #d4d4d4;" valign="top">
+					<!-- START BODY CONTENT -->
 
-						<p>Hi ##SM_RULE_360 Email Salutation## &ndash;</p>
+					<p>Hi ##SM_RULE_360 Email Salutation## &ndash;</p>
 
-						<p>Ida B. Wells, Malcolm X, and Martin Luther King, Jr. are iconic Black leaders, but back when they were mobilizing communities to fight for racial justice, our government targeted them as so-called "race agitators" and “subversives." <strong>Today the FBI is still targeting Black activists &ndash; and together with our partners at Media Justice, we're taking action to do something about it.</strong></p>
+					<p>Ida B. Wells, Malcolm X, and Martin Luther King, Jr. are iconic Black leaders, but back when they were mobilizing communities to fight for racial justice, our government targeted them as so-called "race agitators" and “subversives." <strong>Today the FBI is still targeting Black activists &ndash; and together with our partners at Media Justice, we're taking action to do something about it.</strong></p>
 
-						<p>While we fight in the courts, we need supporters like you to back us up. Over 30,000 activists have already signed our petition, and on July 17, we're delivering each and every one of those signatures to key members of Congress who have the power to check the FBI.</p>
+					<p>While we fight in the courts, we need supporters like you to back us up. Over 30,000 activists have already signed our petition, and on July 17, we're delivering each and every one of those signatures to key members of Congress who have the power to check the FBI.</p>
 
-						<p>
-							<a linkname="body link 1" href="https://action.aclu.org/petition/stop-fbi-surveillance-black-activists?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted##"><strong>Add your name now to say loud and clear that the FBI must stop illegally targeting Black activists for surveillance and investigation.</strong></a>
-						</p>
+					<p><a linkname="body link 1" href="https://action.aclu.org/petition/stop-fbi-surveillance-black-activists?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted##"><strong>Add your name now to say loud and clear that the FBI must stop illegally targeting Black activists for surveillance and investigation.</strong></a></p>
 
-						<p>The FBI is using the fake umbrella term "Black Identity Extremists" to group unconnected Black people in an effort to justify surveilling activists who, in the FBI's own words, “perceive racism and injustice in American society." The consequences of this flawed, baseless reasoning can't be overstated: <strong>Black activists will suffer even more harassment, distrust of law enforcement will heighten, and our right to protest will be violated.</strong></p>
+					<p>The FBI is using the fake umbrella term "Black Identity Extremists" to group unconnected Black people in an effort to justify surveilling activists who, in the FBI's own words, “perceive racism and injustice in American society." The consequences of this flawed, baseless reasoning can't be overstated: <strong>Black activists will suffer even more harassment, distrust of law enforcement will heighten, and our right to protest will be violated.</strong></p>
 
-						<p>The FBI's actions also ignore the very real need to fight violence by white supremacists, which is on the rise across the country &ndash; spreading fear, hate, and putting lives in danger. If the past has taught us anything about protest, racial injustice, and abuse of power, we must fight back.</p>
+					<p>The FBI's actions also ignore the very real need to fight violence by white supremacists, which is on the rise across the country &ndash; spreading fear, hate, and putting lives in danger. If the past has taught us anything about protest, racial injustice, and abuse of power, we must fight back.</p>
 
-						<p>
-							<strong>We have 6 days to make our voices heard, so we must act now: <a linkname="body link 2" href="https://action.aclu.org/petition/stop-fbi-surveillance-black-activists?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted##">Sign the petition demanding the FBI cease the illegal targeting of Black activists for surveillance and investigation.</a></strong>
-						</p>
+					<p><strong>We have 6 days to make our voices heard, so we must act now: <a linkname="body link 2" href="https://action.aclu.org/petition/stop-fbi-surveillance-black-activists?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted##">Sign the petition demanding the FBI cease the illegal targeting of Black activists for surveillance and investigation.</a></strong></p>
 
-						<p>Let's not let history repeat itself, ##SM_RULE_360 Email Salutation##. Let's fight for what's right.</p>
+					<p>Let's not let history repeat itself, ##SM_RULE_360 Email Salutation##. Let's fight for what's right.</p>
 
-						<p>Thanks for taking action,</p>
+					<p>Thanks for taking action,</p>
 
-						<!-- START SIGNATURE PHOTO, NAME, TITLE -->
-						<p><img src="image_library/org_1400/242775/nusrat-choudhury.jpg" alt="Nusrat Choudhury" border="0" width="90" /></p>
-						<p>
-							<strong
-								>Nusrat Choudhury<br />
-								Deputy Director of the ACLU Racial Justice Program</strong
-							>
-						</p>
-						<!-- END SIGNATURE PHOTO, NAME, TITLE -->
-						<!-- END BODY CONTENT -->
-					</td>
-				</tr>
-				<tr>
-					<td style="text-align: left; font-family: Arial, 'Helvetica Neue', sans-serif; font-size: 13px; color: #505050; line-height: 19px; padding: 25px 15px 15px 15px">
-						<table width="56%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
-							<tbody>
-								<tr>
-									<td valign="top" class="footer-left" style="font-family: Arial, 'Helvetica Neue', sans-serif; font-size: 13px; line-height: 20px; color: #888888">
-										<!-- START FOOTER DONATE BUTTON, make sure to update both links and adjust both widths as needed -->
-										<div>
-											<!--[if mso]>
+					<!-- START SIGNATURE PHOTO, NAME, TITLE -->
+					<p><img src="image_library/org_1400/242775/nusrat-choudhury.jpg" alt="Nusrat Choudhury" border="0" width="90" /></p>
+					<p><strong>Nusrat Choudhury<br />
+					Deputy Director of the ACLU Racial Justice Program</strong></p>
+					<!-- END SIGNATURE PHOTO, NAME, TITLE -->
+					<!-- END BODY CONTENT -->
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align:left;font-family: Arial,'Helvetica Neue',sans-serif;font-size:13px;color:#505050;line-height:19px;padding:25px 15px 15px 15px;">
+					<table width="56%" cellpadding="0" cellspacing="0" border="0" align="left" class="footer-left">
+						<tbody>
+							<tr>
+								<td valign="top" class="footer-left" style="font-family: Arial,'Helvetica Neue',sans-serif;font-size:13px;line-height:20px;color:#888888;">
+									<!-- START FOOTER DONATE BUTTON, make sure to update both links and adjust both widths as needed -->
+									<div>
+										<!--[if mso]>
 								  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://action.aclu.org/give/protect-rights-freedoms-we-believe-4?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted## linkname="Donate Button" style="height:45px;v-text-anchor:middle;width:200px;" stroke="f" fillcolor="#0055aa">
 									<w:anchorlock/>
 									<center>
 								  <![endif]-->
-											<a href="https://action.aclu.org/give/protect-rights-freedoms-we-believe-4?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted##" linkname="Donate Button" style="background-color: #0055aa; color: #ffffff; display: inline-block; font-size: 16px; font-family: Arial, 'Helvetica Neue', sans-serif; font-weight: bold; line-height: 45px; text-align: center; text-decoration: none; width: 200px; -webkit-text-size-adjust: none">DONATE NOW</a>
-											<!--[if mso]>
+										<a href="https://action.aclu.org/give/protect-rights-freedoms-we-believe-4?ms_aff=NAT&initms_aff=NAT&ms=190711_racialjustice_fbibie_&initms=190711_racialjustice_fbibie_&ms_chan=eml&initms_chan=eml&af=##sb_query_string_encrypted##"
+										  linkname="Donate Button" style="background-color:#0055aa;color:#ffffff;display:inline-block;font-size:16px;font-family: Arial,'Helvetica Neue',sans-serif;font-weight:bold;line-height:45px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;">DONATE NOW</a>
+										<!--[if mso]>
 									</center>
 								  </v:rect>
 								<![endif]-->
-										</div>
-										<!-- END FOOTER DONATE BUTTON -->
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<table width="40%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
-							<tbody>
-								<tr>
-									<td valign="top" class="footer-right" style="padding: 5px 0px 0px 35px; font-family: Arial, 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 20px; color: #888888; text-align: right">
-										<a href="##OBCLICKTAG##2003##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://www.facebook.com/aclu" linkname="Facebook" target="_blank"><img src="https://ms.clicks.actions.aclu.org/img/org_1400/icon-fb.png" border="0" alt="Facebook" width="33" /></a> &nbsp; &nbsp; <a href="##OBCLICKTAG##2009##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://twitter.com/aclu" linkname="Twiter" target="_blank"><img src="https://ms.clicks.actions.aclu.org/img/org_1400/icon-tw.png" border="0" alt="Twitter" width="33" /></a> &nbsp;
-										&nbsp; <a href="##OBCLICKTAG##2010##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://www.instagram.com/aclu_nationwide/?hl=en" linkname="Instagram" target="_blank"><img src="https://ms.clicks.actions.aclu.org/img/org_1400/icon-insta.png" border="0" alt="Instagram" width="33" /></a>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</td>
-				</tr>
-				<tr>
-					<td align="left" class="footer-text" style="color: #888888; font-family: Arial, 'Helvetica Neue', sans-serif; font-size: 13px; line-height: 20px; padding: 15px">
-						<!-- START FOOTER INFO -->
-						This email was sent to: <strong>##email_address##</strong><br />
-						<br />
-						<a href="##OBCLICKTAG##2006##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://action.aclu.org/preference-center/aclu-action-national-email-preference?mailingid=##MailingID##&messageid=##MessageID##&databaseid=##DatabaseID##&serial=##SERIAL_NUMBER##&userid=##USERROWID##&eid=##email_id##&referral=ActionNational" linkname="Unsubscribe" style="color: #888888">Unsubscribe</a><br />
-						<br />
-						Please note: If you forward or distribute, the links will open a page with your information filled in.<br />
-						<br />
-						We respect your right to privacy &ndash; <a href="##OBCLICKTAG##2007##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://www.aclu.org/american-civil-liberties-union-privacy-statement" linkname="Privacy" style="color: #888888">view our policy</a>.<br />
-						<br />
-						This email was sent by:<br />
-						American Civil Liberties Union<br />
-						<a href="##OBCLICKTAG##2008##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://goo.gl/maps/8FNUnstHiRF2" style="color: #888888; text-decoration: none"
-							>125 Broad Street, 18th Floor<br />
-							New York, NY 10004, USA</a
-						><br />
-						<br />
-						<!-- END FOOTER INFO -->
-					</td>
-				</tr>
-			</tbody>
-		</table>
-	</body>
+									</div>
+									<!-- END FOOTER DONATE BUTTON -->
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table width="40%" cellspacing="0" cellpadding="0" border="0" align="right" class="footer-right">
+						<tbody>
+							<tr>
+								<td valign="top" class="footer-right" style="padding:5px 0px 0px 35px;font-family: Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:20px;color:#888888;text-align:right;"><a href="##OBCLICKTAG##2003##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://www.facebook.com/aclu" linkname="Facebook" target="_blank"><img src="https://ms.clicks.actions.aclu.org/img/org_1400/icon-fb.png" border="0" alt="Facebook" width="33" /></a> &nbsp;
+									&nbsp; <a href="##OBCLICKTAG##2009##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://twitter.com/aclu" linkname="Twiter" target="_blank"><img src="https://ms.clicks.actions.aclu.org/img/org_1400/icon-tw.png" border="0" alt="Twitter" width="33" /></a> &nbsp;
+									&nbsp; <a href="##OBCLICKTAG##2010##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://www.instagram.com/aclu_nationwide/?hl=en" linkname="Instagram" target="_blank"><img src="https://ms.clicks.actions.aclu.org/img/org_1400/icon-insta.png" border="0" alt="Instagram" width="33" /></a></td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" class="footer-text" style="color:#888888;font-family: Arial,'Helvetica Neue',sans-serif;font-size:13px;line-height:20px;padding:15px;">
+					<!-- START FOOTER INFO -->
+					This email was sent to: <strong>##email_address##</strong><br />
+					<br />
+					<a href="##OBCLICKTAG##2006##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://action.aclu.org/preference-center/aclu-action-national-email-preference?mailingid=##MailingID##&messageid=##MessageID##&databaseid=##DatabaseID##&serial=##SERIAL_NUMBER##&userid=##USERROWID##&eid=##email_id##&referral=ActionNational"
+					  linkname="Unsubscribe" style="color:#888888;">Unsubscribe</a><br />
+					<br /> Please note: If you forward or distribute, the links will open a page with your information filled in.<br />
+					<br /> We respect your right to privacy &ndash; <a href="##OBCLICKTAG##2007##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://www.aclu.org/american-civil-liberties-union-privacy-statement" linkname="Privacy" style="color:#888888;">view our policy</a>.<br
+					/>
+					<br /> This email was sent by:<br /> American Civil Liberties Union<br />
+					<a href="##OBCLICKTAG##2008##ArgDelimiter##_sm_extra=##ArgDelimiter####ArgDelimiter####ArgDelimiter##https://goo.gl/maps/8FNUnstHiRF2" style="color:#888888;text-decoration:none;">125 Broad Street, 18th Floor<br />
+				New York, NY 10004, USA</a><br />
+					<br />
+					<!-- END FOOTER INFO -->
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
 </html>
