@@ -78,7 +78,7 @@
 			"body": [
 					"<!-- START CENTERED IMAGE -->",
 					"<div align=\"center\">",
-					"\t<a linkname=\"banner image\" href=\"$1\" target=\"_blank\"><img src=\"$2\" width=\"600\" class=\"image-resize\" border=\"0\" alt=\"You're invited!\" /></a>",
+					"\t<a href=\"{affiliate_website}\"><img src=\"https://media.sailthru.com/64p/1k3/9/r/5d8e71d74accd.jpg\" width=\"600\" class=\"image-resize\" border=\"0\" alt=\"You're invited!\" /></a>",
 					"</div><br />",
 					"<!-- END CENTERED IMAGE -->"
 			],
