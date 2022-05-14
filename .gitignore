@@ -13,6 +13,7 @@ desktop.ini
 /node_modules
 /build
 /dist
+
 # secrets and errors
 .env
 .sass-cache

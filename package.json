@@ -14,7 +14,6 @@
     "format": "npx prettier --write dist",
     "spellcheck": "npx cspell \"src/**\"",
     "lint": "npm-run-all lint:*",
-    "lint:email": "emailhint dist/test/**",
     "build": "cross-env env=production eleventy",
     "test": "echo Test successfully run ✅",
     "commit": "git cz"
