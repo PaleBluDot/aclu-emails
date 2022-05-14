@@ -12,7 +12,7 @@ desktop.ini
 /highlight-files
 /node_modules
 /build
-
+/dist
 # secrets and errors
 .env
 .sass-cache
