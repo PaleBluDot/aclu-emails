@@ -13,19 +13,19 @@ const types = [
 	},
 	{
 		value: "chore",
-		name: "🔩 chore:\t Doesn't modify src or test files",
+		name: "🔩 chore:\t Doesn't modify src files",
 	},
 	{
 		value: "docs",
-		name: "📚 docs:\t Update or change to the documentation",
+		name: "📚 docs:\t Update to the documentation",
 	},
 	{
 		value: "build",
-		name: "🚀 build:\t Build system config or external dependencies",
+		name: "🚀 build:\t Build system config",
 	},
 	{
 		value: "refactor",
-		name: "♻ refactor:\t Neither fixes a bug nor adds a feature",
+		name: "♻ refactor:\t Neither fixes nor adds a feature",
 	},
 	{
 		value: "revert",
@@ -42,16 +42,16 @@ module.exports = {
 	scopes,
 	messages: {
 		type: "Type of change that you're committing:",
-		scope: "\nChoose the SCOPE of this change (optional):",
-		customScope: "Denote the SCOPE of this change:",
-		subject: "Write a SHORT, IMPERATIVE tense description of the change:\n",
-		body: "Provide a LONGER description of the change (optional):\n",
-		breaking: "List BREAKING CHANGES (optional):\n",
-		footer: "List CLOSED ISSUES (optional). E.g.: #31, #34:\n",
-		confirmCommit: "Are you sure you want to proceed with the commit above?",
+		scope: "\nSCOPE of this change (optional):",
+		customScope: "Custom SCOPE of this change:",
+		subject: "SHORT, IMPERATIVE tense description:\n",
+		body: "LONGER description change (optional):\n",
+		breaking: "BREAKING CHANGES (optional):\n",
+		footer: "CLOSED ISSUES (optional):\n",
+		confirmCommit: "Are you sure you want to commit?",
 	},
 	allowCustomScopes: true,
 	allowBreakingChanges: ["feat", "fix"],
 	subjectLimit: 60,
-	askForBreakingChangeFirst: true,
+	askForBreakingChangeFirst: false,
 };
