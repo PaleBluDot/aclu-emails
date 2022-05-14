@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - dev
 
 jobs:
   Release:
@@ -43,7 +42,6 @@ jobs:
           branches: |
             [
               'main',
-              {name: 'dev', prerelease: true},
             ]
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
