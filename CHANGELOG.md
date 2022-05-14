@@ -1,7 +1,53 @@
 # Changelog
 
+# [1.0.0-dev.3](https://github.com/PaleBluDot/aclu-emails/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2022-05-14)
+
+
+### Bug Fixes
+
+* remove dev branch from workflow ([96ba8d4](https://github.com/PaleBluDot/aclu-emails/commit/96ba8d4c770bd3dffe0f307400ef2c0df69e04e6))
+
+
+### Features
+
+* initial release  ([#6](https://github.com/PaleBluDot/aclu-emails/issues/6)) ([31ac8c9](https://github.com/PaleBluDot/aclu-emails/commit/31ac8c9ab2a0a5e4f18089218568e87b58c2f157)), closes [#3](https://github.com/PaleBluDot/aclu-emails/issues/3) [#3](https://github.com/PaleBluDot/aclu-emails/issues/3) [#4](https://github.com/PaleBluDot/aclu-emails/issues/4) [#5](https://github.com/PaleBluDot/aclu-emails/issues/5)
+
+
+### BREAKING CHANGES
+
+* update 11ty to v1.0.0
+
+* build: remove dotenv package
+
+* chore: update ignore directory
+
+* build: rename files to stop build clash
+
+* chore(release): 🏷️ v1.0.0-dev.1 [skip ci]
+
 # 1.0.0-dev.1 (2022-05-14)
 
+### Bug Fixes
+
+* add a fallback text ([91c6164](https://github.com/PaleBluDot/aclu-emails/commit/91c6164b02964fd1ac10f57cfc84aa2367fa8783))
+* correct folder output ([13a910a](https://github.com/PaleBluDot/aclu-emails/commit/13a910a504d868c884e91d5ce50c2cfec6057a9a))
+* correct the layout name ([f6e973f](https://github.com/PaleBluDot/aclu-emails/commit/f6e973fb2c9375c38c5ad0d7933b3c9340a6f404))
+* prettier issues ([bddefb6](https://github.com/PaleBluDot/aclu-emails/commit/bddefb6f6d15728b61af115b1691ce34956948d1))
+* removed files ([14b9251](https://github.com/PaleBluDot/aclu-emails/commit/14b9251866e5ab1d6eeda510483aef444238e251))
+* updates pacakge vulnerability ([e36ba19](https://github.com/PaleBluDot/aclu-emails/commit/e36ba1913d7ed5b19bb037ade9b98832677ef4fd))
+
+### Features
+
+* fake probation ([ed3f923](https://github.com/PaleBluDot/aclu-emails/commit/ed3f923a3957ee6fee4f7938270ba368c97f2830))
+* IA cedar rapids school ([91ad308](https://github.com/PaleBluDot/aclu-emails/commit/91ad30821fdb5cd9ae21aec33d0eb28442ecbd8c))
+
+# [1.0.0-dev.2](https://github.com/PaleBluDot/aclu-emails/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2022-05-14)
+
+### Features
+
+* **component:** salutations ([93617a1](https://github.com/PaleBluDot/aclu-emails/commit/93617a1c7717a267f779c684ca89ce0f3f9f33b3))
+
+# 1.0.0-dev.1 (2022-05-14)
 
 ### Bug Fixes
 
