@@ -1,0 +1,30 @@
+{
+	"branches": ["main", "dev"],
+	"plugins": [
+		[
+			"@semantic-release/commit-analyzer",
+			{
+				"releaseRules": [
+					{ "type": "email", "release": "patch" },
+					{ "type": "docs", "release": "patch" }
+				]
+			}
+		],
+		"@semantic-release/release-notes-generator",
+		[
+			"@semantic-release/changelog",
+			{
+				"changelogTitle": "# Changelog"
+			}
+		],
+		"@semantic-release/npm",
+		"@semantic-release/github",
+		[
+			"@semantic-release/git",
+			{
+				"assets": ["package.json", "package-lock.json", "CHANGELOG.md", "dist"],
+				"message": "chore(release): 🏷️ v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+			}
+		]
+	]
+}

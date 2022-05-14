@@ -1,6 +1,4 @@
 module.exports = function (eleventyConfig) {
-	require('dotenv').config();
-
 	eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
 	eleventyConfig.addLayoutAlias("sidebox", "layouts/sidebox.njk");
 	eleventyConfig.addLayoutAlias("standard", "layouts/standard.njk");
