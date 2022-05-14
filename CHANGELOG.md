@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.0.0-dev.2](https://github.com/PaleBluDot/aclu-emails/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2022-05-14)
+
+
+### Features
+
+* **component:** salutations ([93617a1](https://github.com/PaleBluDot/aclu-emails/commit/93617a1c7717a267f779c684ca89ce0f3f9f33b3))
+
 # 1.0.0-dev.1 (2022-05-14)
 
 
