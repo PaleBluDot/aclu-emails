@@ -13,6 +13,7 @@
     "clean": "rm -r dist",
     "format": "npx prettier --write dist",
     "spellcheck": "npx cspell \"src/**\"",
+    "spell": "npx cspell \"src/productions/District of Columbia/**\"",
     "lint": "npm-run-all lint:*",
     "build": "cross-env env=production eleventy",
     "test": "echo Test successfully run ✅",

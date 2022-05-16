@@ -1,40 +1,37 @@
 {
     "version": "0.2",
     "language": "en",
-    "words": [
-        "advo",
-        "COVID",
-        "cta",
-        "diy",
-        "emailbodytext",
-        "emailwrapto",
-        "ios",
-        "IPHONE",
-        "latinx",
-        "livestream",
-        "lspace",
-        "mso",
-        "preheader",
-        "rspace",
-        "sidebox",
-        "tagname",
-        "tsmerge",
-        "valign",
-        "xyz"
-    ],
-    "flagWords": [
-        "hte",
-        "hate",
-        "insurrection",
-        "terrorism"
-    ],
-    "ignoreWords": [
-        "bgcolor",
-        "changemaker",
-        "ehthumbs",
-        "evers",
-        "lege",
-        "quickstart",
-        "werk"
+		"dictionaries": ["aclu", "flags", "medical", "names","lorem", "spanish"],
+		"dictionaryDefinitions": [
+			{
+				"name": "aclu",
+				"path": "../.config/dictionaries/aclu.txt",
+				"addWords": true
+			},
+			{
+				"name": "flags",
+				"path": "../.config/dictionaries/flags.txt",
+				"addWords": true
+			},
+			{
+				"name": "medical",
+				"path": "../.config/dictionaries/medical.txt",
+				"addWords": true
+			},
+			{
+				"name": "names",
+				"path": "../.config/dictionaries/names.txt",
+				"addWords": true
+			},
+			{
+				"name": "lorem",
+				"path": "~/.config/dictionaries/lorem.txt",
+				"addWords": true
+			},
+			{
+				"name": "spanish",
+				"path": "../.config/dictionaries/spanish.txt",
+				"addWords": true
+			}
     ]
 }
