@@ -1,4 +1,5 @@
 acludc
+actionnetwork
 advo
 alabamavotes
 Amara
@@ -34,6 +35,7 @@ emailwrapto
 emailwrapto100pc
 enddeathpenaltyco
 eventbrite
+everyaction
 Exonerees
 fillcolor
 FOIA
@@ -57,6 +59,7 @@ Norcal
 nytimes
 pclowpad
 PETA
+PPC
 preheader
 reclass
 RFFA
@@ -75,3 +78,9 @@ walkthrough
 Werk
 WMATA
 YALLA
+Orleanians
+lockdown
+frontlines
+NOPD
+laaclu
+givenola
