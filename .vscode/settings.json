@@ -6,8 +6,9 @@
 	"cSpell.minWordLength": 2,
 	"cSpell.enabledLanguageIds": ["markdown", "plaintext", "html"],
 	"editor.formatOnSave": false,
-	"editor.wordWrapColumn": 60,
+	"editor.wordWrapColumn": 80,
 	"files.exclude": {
-		"**/node_modules": false
-	}
+		"**/node_modules": true
+	},
+	"cSpell.useGitignore": false
 }
