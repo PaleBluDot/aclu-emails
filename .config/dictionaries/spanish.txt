@@ -9,6 +9,7 @@ Cena
 centro
 Civiles
 clinica
+Cliníca
 compañías
 comunidad
 Condado
@@ -62,3 +63,4 @@ unidos
 Unión
 Usando
 Viernes
+Chulo
