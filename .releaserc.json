@@ -5,7 +5,7 @@
 			"@semantic-release/commit-analyzer",
 			{
 				"releaseRules": [
-					{ "type": "email", "release": "patch" },
+					{ "type": "email", "release": "minor" },
 					{ "type": "docs", "release": "patch" }
 				]
 			}
