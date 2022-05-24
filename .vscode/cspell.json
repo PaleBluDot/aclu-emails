@@ -1,7 +1,7 @@
 {
     "version": "0.2",
     "language": "en",
-		"dictionaries": ["aclu", "flags", "medical", "names","lorem", "locations", "spanish"],
+		"dictionaries": ["aclu", "flags", "medical", "names","lorem", "locations", "spanish", "sort"],
 		"dictionaryDefinitions": [
 			{
 				"name": "aclu",
@@ -36,6 +36,11 @@
 			{
 				"name": "spanish",
 				"path": "../.config/dictionaries/spanish.txt",
+				"addWords": true
+			},
+			{
+				"name": "sort",
+				"path": "../.config/dictionaries/sort.txt",
 				"addWords": true
 			}
     ]
