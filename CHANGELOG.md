@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/PaleBluDot/aclu-emails/compare/v1.0.0...v1.0.1) (2022-05-24)
+
+
+### Bug Fixes
+
+* update spellchecker  ([#11](https://github.com/PaleBluDot/aclu-emails/issues/11)) ([b8bf25d](https://github.com/PaleBluDot/aclu-emails/commit/b8bf25d56ab5602549ead00af30b1539195a3b71))
+
 # 1.0.0 (2022-05-14)
 ### Features
 
