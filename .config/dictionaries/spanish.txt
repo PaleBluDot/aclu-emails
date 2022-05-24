@@ -1,4 +1,5 @@
 Administración
+altoalos
 aquí
 atender
 ayudar
@@ -7,6 +8,7 @@ Bomberos
 campaña
 Cena
 centro
+Chulo
 Civiles
 clinica
 Cliníca
@@ -18,6 +20,9 @@ construcción
 construir
 costoso
 Crea
+decidir
+Dejala
+Déjala
 Deportación
 Detención
 detener
@@ -44,10 +49,12 @@ Libertades
 MTC
 nuestro
 Oficina
+Palacios
 preparándose
 prisión
 prisiones
 privadas
+prohibiciones
 propio
 propósitos
 provista
@@ -58,16 +65,9 @@ Septiembre
 sigue
 solidaridad
 sus
+Toco
 Únete
 unidos
 Unión
 Usando
 Viernes
-Chulo
-Palacios
-Toco
-Dejala
-decidir
-prohibiciones
-altoalos
-Déjala
