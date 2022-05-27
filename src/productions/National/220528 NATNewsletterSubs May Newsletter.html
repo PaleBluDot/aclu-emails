@@ -1,0 +1,682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="color-scheme" content="light dark" />
+	<meta name="supported-color-schemes" content="light dark" />
+	<style type="text/css">
+		:root {
+			color-schemes: light dark;
+			supported-color-schemes: light dark;
+		}
+
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		img {
+			border: 0;
+			outline: none;
+			text-decoration: none;
+			-ms-interpolation-mode: bicubic;
+		}
+
+		a img {
+			border: none;
+		}
+
+		h1 {
+			margin: 0 0 5px 0;
+			text-align: left;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 28px;
+			color: #262626;
+		}
+
+		h2 {
+			font-size:18px;
+		}
+
+		h3 {
+			margin: 0px;
+			font-family: 'Times New Roman', Times, serif;
+			color: #262626;
+			line-height: 38px;
+			font-size: 32px;
+			text-decoration: none;
+		}
+
+		p,
+		li {
+			color: #262626;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 24px;
+			margin-bottom: 1.35em !important;
+		}
+
+		.preheader {
+			display: none;
+			color: #ffffff;
+			font-size: 2px;
+		}
+
+		/* Center email in Outlook.com */
+		.ExternalClass {
+			width: 100% !important;
+		}
+
+		/* Overwrite Outlook.com Embedded CSS */
+		.ExternalClass,
+		.ExternalClass p,
+		.ExternalClass span,
+		.ExternalClass font,
+		.ExternalClass td,
+		.ExternalClass div {
+			line-height: 100%;
+		}
+
+		a,
+		a:visited,
+		a:hover,
+		a:active {
+			color: #262626;
+			font-weight: bold;
+		}
+
+		#outlook a {
+			padding: 0;
+		}
+
+		@media only screen and (max-width: 600px) {
+			.wrapper {
+				max-width: 600px !important;
+				width: 100% !important;
+			}
+
+			.mobileText {
+				font-size: 16px !important;
+				line-height: 21px !important;
+			}
+
+			.resImage {
+				height: auto !important;
+				width: 100% !important;
+			}
+		}
+
+		@media only screen and (max-width: 480px) {
+			td.followCell {
+				display: block !important;
+				text-align: center !important;
+			}
+
+			td.hidden480 {
+				display: none !important;
+			}
+
+			.centerFooterTop {
+				text-align: center !important;
+				padding: 0 0 25px 0 !important;
+				width: 100% !important;
+				display: block !important;
+			}
+
+			.centerFooterBottom {
+				text-align: center !important;
+				padding: 0 0 15px 0px !important;
+				width: 100% !important;
+				display: block !important;
+			}
+
+			.iconCell img {
+				height: 100px !important;
+				width: auto !important;
+			}
+
+			.emailwrapto100pc {
+				width: 100% !important;
+				height: auto !important;
+				white-space: inherit !important;
+				text-align: left !important;
+				line-height: inherit !important;
+				padding: 0 10px 0 10px !important;
+				display: block;
+			}
+
+			.emailwrapto100pc-center {
+				width: 100% !important;
+				height: auto !important;
+				padding-left: 0px !important;
+				white-space: inherit !important;
+				text-align: center !important;
+				line-height: inherit !important;
+				display: block;
+			}
+
+			td.deviceWidth {
+				display: block !important;
+				padding: 5px 15px 5px 20px !important;
+			}
+
+			td.Footer100pc {
+				text-align: center !important;
+				width: 100% !important;
+				display: block !important;
+			}
+
+			td.Footer100pcPadding {
+				text-align: center !important;
+				width: 100% !important;
+				display: block !important;
+				padding-bottom: 15px !important;
+				padding-right: 0 !important;
+			}
+
+			td.mainContent {
+				padding: 10px !important;
+			}
+
+			td.mobilePadding {
+				padding-top: 10px !important;
+			}
+
+			img.full-width-image {
+				width: 100% !important;
+			}
+
+			table.mobile-table-width {
+				width: 90% !important;
+			}
+
+			td.mobile-body-text {
+				font-size: 16px !important;
+				line-height: 21px !important;
+			}
+
+			td.headline-text {
+				font-size: 28px !important;
+				line-height: 32px !important;
+			}
+
+			td.section-title {
+				padding-left: 50px !important;
+			}
+		}
+
+		@media (prefers-color-scheme: dark) {
+			body {
+				background: #1c1c1e;
+			}
+
+			a,
+			a:visited,
+			a:hover,
+			a:active {
+				color: #2D86E0;
+			}
+
+			a.button-text,
+			a.button-text:visited,
+			a.button-text:hover,
+			a.button-text:active {
+				color: #cecece;
+			}
+
+			td.emailbodytext p,
+			td.emailbodytext li,
+			td.tagline p,
+			td.dm-box h2 {
+				color: #cecece;
+			}
+
+			td.dm-box {
+				background: #2a2a2b !important;
+				color: #cecece;
+			}
+
+			td.emailbodytext {
+				border-bottom: 2px solid #2a2a2b !important;
+			}
+
+			table.inner-sidebox,
+			td.dm-box {
+				border: 0 !important;
+			}
+
+			td.dm-newsletter-tag {
+				background: #ef404d;
+			}
+
+			td.section-title {
+				color: #A3DCE3 !important;
+			}
+
+			table.dm-article-inner-box,
+			td.headline-text,
+			td.dm-article-body {
+				background-color: #1c1c1e !important;
+			}
+
+			table.dm-article-inner-box p,
+			td.footer-text {
+				color: #cecece !important;
+			}
+
+			table.dm-article-inner-box a,
+			td.footer-text a {
+				color: #2d86e0 !important;
+			}
+
+			table.dm-light-section {
+				background-color: #3c3532 !important;
+			}
+
+			table.dm-dark-section {
+				background-color: #1c1c1e !important;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<span class="preheader" style="display:none !important;visibility:hidden;opacity:0;color:transparent;height:0;width:0;">Best reads from the front lines of the fight for civil liberties.</span>
+	{include "pre-header-spacing"}
+	{beacon}
+	<table align="center" bgcolor="#CFCFCF" border="0" cellpadding="0" cellspacing="0" class="wrapper" width="600">
+		<tbody>
+			<tr>
+				<td align="center" width="100%" valign="top"><a href="https://www.aclu.org?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail"><img src="https://media.sailthru.com/64d/1k4/8/j/5f3d383f2c83c.png" width="600" alt="ACLU Monthly Newsletter" class="full-width-image" style="display:block;" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" width="100%" valign="top"><a href="https://www.aclu.org?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail"><img src="https://media.sailthru.com/64d/1k4/8/j/5f3d3677d411d.png" width="600" alt="" class="full-width-image" style="display:block;" /></a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- START OF ARTICLE 1 SECTION -->
+	<table role="presentation" align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-dark-section" width="600">
+		<tbody>
+			<!-- START OF SECTION HEADING -->
+			<tr>
+				<td class="section-title" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF; font-family: Arial, sans-serif; color: #EF404F; line-height: 20px; font-size: 18px;padding:40px 0 20px 83px;">
+					<h2>ROE'S UNCERTAIN FUTURE</h2>
+				</td>
+			</tr>
+			<!-- END OF SECTION HEADING -->
+			<tr>
+				<td align="center" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;padding-bottom:30px;">
+					<!-- START OF ARTICLE 2 -->
+					<table role="presentation" class="mobile-table-width dm-article-inner-box" align="center" border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="headline-text"
+								style="font-family: 'Times New Roman', Times, serif; color: #262626; line-height: 38px; font-size: 32px;text-align:left;padding:0px 20px 0px 20px;">
+								<h3><a href="https://www.aclu.org/news/reproductive-freedom/to-see-the-future-of-roe-look-to-the-states?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="text-decoration: none;font-weight:400;color: #0055AA;">To See the Future of Roe, Look to the States</a></h3>
+							</td>
+						</tr>
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="mobile-body-text dm-article-body" style="font-family: Arial, sans-serif; color: #262626; padding:0px 20px 0px 20px;">
+							<p>There are some things we don't know about the leaked Supreme Court opinion in <em>Dobbs v. Jackson Women's Health Organization,</em> which indicated the court is ready to overturn <em>Roe v. Wade.</em> We're still waiting on the final decision to be released, and with that wait comes uncertainty and fear. But in the meantime, there's still a lot we do know about abortion access nationwide, and what may happen next. </p>
+							<p><a href="https://www.aclu.org/news/reproductive-freedom/to-see-the-future-of-roe-look-to-the-states?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="color: #ef404e;">Read more</a></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- END OF ARTICLE 1 SECTION -->
+
+	<!-- START OF ARTICLE 2 SECTION -->
+	<table role="presentation" align="center" bgcolor="#D7F0F2" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-light-section" width="600">
+		<tbody>
+			<!-- START OF SECTION HEADING -->
+			<tr>
+				<td class="section-title" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF; font-family: Arial, sans-serif; color: #EF404F; line-height: 20px; font-size: 18px;padding:40px 0 20px 83px;">
+					<h2>MOBILIZING TO PROTECT COMMUNITIES</h2>
+				</td>
+			</tr>
+			<!-- END OF SECTION HEADING -->
+			<tr>
+				<td align="center" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;padding-bottom:60px;">
+					<!-- START OF ARTICLE 3 -->
+					<table role="presentation" class="mobile-table-width dm-article-inner-box" align="center" border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="headline-text"
+								style="font-family: 'Times New Roman', Times, serif; color: #262626; line-height: 38px; font-size: 32px;text-align:left;padding:30px 20px 0px 20px;">
+								<h3><a href="https://www.aclu.org/news/immigrants-rights/on-the-frontlines-of-the-fight-against-mass-deportation?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="text-decoration: none;font-weight:400;color:#262626;color: #0055AA;">On the Frontlines of the Fight Against Mass Deportation</a></h3>
+							</td>
+						</tr>
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="mobile-body-text dm-article-body" style="font-family: Arial, sans-serif; color: #262626; padding:0px 20px 10px 20px;">
+								<p>In a new report, the ACLU documented the harms of a federal program that empowers local law enforcement to collaborate with ICE. We spoke with three organizers leading the fight against these law enforcement partnerships about what it's like to live in a community operating under 287(g), how to mobilize communities and empower people to act, and their vision for a future free of this harmful program.</p>
+								<p><a href="https://www.aclu.org/news/immigrants-rights/on-the-frontlines-of-the-fight-against-mass-deportation?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="color: #ef404e;">Read more</a></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- END OF ARTICLE 2 SECTION -->
+
+	<!-- START OF ARTICLE 3 SECTION -->
+	<table role="presentation" align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-dark-section" width="600">
+		<tbody>
+			<!-- START OF SECTION HEADING -->
+			<tr>
+				<td class="section-title" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF; font-family: Arial, sans-serif; color: #EF404F; line-height: 20px; font-size: 18px;padding:40px 0 20px 83px;">
+					<h2>LGBTQ RIGHTS ON THE LINE</h2>
+				</td>
+			</tr>
+			<!-- END OF SECTION HEADING -->
+			<tr>
+				<td align="center" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;padding-bottom:30px;">
+					<!-- START OF ARTICLE 2 -->
+					<table role="presentation" class="mobile-table-width dm-article-inner-box" align="center" border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="headline-text"
+								style="font-family: 'Times New Roman', Times, serif; color: #262626; line-height: 38px; font-size: 32px;text-align:left;padding:0px 20px 0px 20px;">
+								<h3><a href="https://www.aclu.org/news/lgbtq-rights/the-roe-draft-signals-a-potential-new-front-in-the-already-raging-war-against-the-lgbtq-community?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="text-decoration: none;font-weight:400;color:#262626;color: #0055AA;">The Roe Draft Signals a Potential New Front in the Already-Raging War Against the LGBTQ Community</a></h3>
+							</td>
+						</tr>
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="mobile-body-text dm-article-body" style="font-family: Arial, sans-serif; color: #262626; padding:0px 20px 0px 20px;">
+								<p>While the <em>Dobbs v. Jackson Women's Health Organization</em> draft opinion may preview a new front in the war against LGBTQ people, attacks against us &ndash; especially youth &ndash; have been growing in intensity for several years and have already reached a fever pitch. The fight is upon us, and we need to mobilize now.</p>
+								<p><a href="https://www.aclu.org/news/lgbtq-rights/the-roe-draft-signals-a-potential-new-front-in-the-already-raging-war-against-the-lgbtq-community?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="color: #ef404e;">Read more</a></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- END OF ARTICLE 3 SECTION -->
+
+	<!-- START OF ARTICLE 4 SECTION -->
+	<table role="presentation" align="center" bgcolor="#D7F0F2" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-light-section" width="600">
+		<tbody>
+			<!-- START OF SECTION HEADING -->
+			<tr>
+				<td class="section-title" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF; font-family: Arial, sans-serif; color: #EF404F; line-height: 20px; font-size: 18px;padding:40px 0 20px 83px;">
+					<h2>PROTECTING RENTERS</h2>
+				</td>
+			</tr>
+			<!-- END OF SECTION HEADING -->
+			<tr>
+				<td align="center" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;padding-bottom:60px;">
+					<!-- START OF ARTICLE 5 -->
+					<table role="presentation" class="mobile-table-width dm-article-inner-box" align="center" border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="headline-text"
+								style="font-family: 'Times New Roman', Times, serif; color: #262626; line-height: 38px; font-size: 32px;text-align:left;padding:30px 20px 0px 20px;">
+								<h3><a href="https://www.aclu.org/news/womens-rights/new-report-illustrates-how-right-to-counsel-prevents-evictions-and-their-discriminatory-impacts-on-communities?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="text-decoration: none;font-weight:400;color:#262626;color: #0055AA;">New Report Illustrates How Right to Counsel Prevents Evictions and their Discriminatory Impacts on Communities</a></h3>
+							</td>
+						</tr>
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="mobile-body-text dm-article-body" style="font-family: Arial, sans-serif; color: #262626; padding:0px 20px 10px 20px;">
+								<p>Our country is facing a historic eviction crisis. Amid a nationwide housing shortage, rents are surging to unprecedented levels, and many renters cannot keep pace. Exacerbating the issue further, renters facing eviction are almost always unrepresented in court proceedings. Our new report illustrates how providing a right to counsel helps keep people in their homes. </p>
+								<p><a href="https://www.aclu.org/news/womens-rights/new-report-illustrates-how-right-to-counsel-prevents-evictions-and-their-discriminatory-impacts-on-communities?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="color: #ef404e;">Read more</a></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- END OF ARTICLE 4 SECTION -->
+
+	<!-- START OF ARTICLE 5 SECTION -->
+	<table role="presentation" align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-dark-section" width="600">
+		<tbody>
+			<!-- START OF SECTION HEADING -->
+			<tr>
+				<td class="section-title" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF; font-family: Arial, sans-serif; color: #EF404F; line-height: 20px; font-size: 18px;padding:40px 0 20px 83px;">
+					<h2>PRIVACY AFTER ROE</h2>
+				</td>
+			</tr>
+			<!-- END OF SECTION HEADING -->
+			<tr>
+				<td align="center" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;padding-bottom:30px;">
+					<!-- START OF ARTICLE 6 -->
+					<table role="presentation" class="mobile-table-width dm-article-inner-box" align="center" border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="headline-text"
+								style="font-family: 'Times New Roman', Times, serif; color: #262626; line-height: 38px; font-size: 32px;text-align:left;padding:0px 20px 0px 20px;">
+								<h3><a href="https://www.aclu.org/news/privacy-technology/impending-threat-of-abortion-criminalization-brings-new-urgency-to-the-fight-for-digital-privacy?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="text-decoration: none;font-weight:400;color:#262626;color: #0055AA;">Impending Threat of Abortion Criminalization Brings New Urgency to the Fight for Digital Privacy</a></h3>
+							</td>
+						</tr>
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="mobile-body-text dm-article-body" style="font-family: Arial, sans-serif; color: #262626; padding:0px 20px 0px 20px;">
+								<p>The lack of strong digital privacy protections has profound implications in the face of expanded criminalization of reproductive health care. In light of these authoritarian attacks on bodily autonomy, we must fight with new urgency to ensure that people maintain control over their personal information. If we fail, the repressive surveillance techniques and powers that police and prosecutors have used for decades to wage the racist wars on drugs and terrorism will be marshaled to track, catalogue, and criminalize pregnant people and those seeking basic information about reproductive health issues.</p>
+								<p><a href="https://www.aclu.org/news/privacy-technology/impending-threat-of-abortion-criminalization-brings-new-urgency-to-the-fight-for-digital-privacy?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="color: #ef404e;">Read more</a></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- END OF ARTICLE 5 SECTION -->
+
+	<!-- START OF ARTICLE 6 SECTION -->
+	<table role="presentation" align="center" bgcolor="#D7F0F2" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-light-section" width="600">
+		<tbody>
+			<!-- START OF SECTION HEADING -->
+			<tr>
+				<td class="section-title" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF; font-family: Arial, sans-serif; color: #EF404F; line-height: 20px; font-size: 18px;padding:40px 0 20px 83px;">
+					<h2>THE RIGHT TO LEARN</h2>
+				</td>
+			</tr>
+			<!-- END OF SECTION HEADING -->
+			<tr>
+				<td align="center" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;padding-bottom:60px;">
+					<!-- START OF ARTICLE 5 -->
+					<table role="presentation" class="mobile-table-width dm-article-inner-box" align="center" border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="headline-text"
+								style="font-family: 'Times New Roman', Times, serif; color: #262626; line-height: 38px; font-size: 32px;text-align:left;padding:30px 20px 0px 20px;">
+								<h3><a href="https://www.aclu.org/news/free-speech/pop-quiz-how-much-do-you-know-about-classroom-censorship?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="text-decoration: none;font-weight:400;color:#262626;color: #0055AA;">How Much Do You Know About Classroom Censorship?</a></h3>
+							</td>
+						</tr>
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="mobile-body-text dm-article-body" style="font-family: Arial, sans-serif; color: #262626; padding:0px 20px 10px 20px;">
+								<p>This year, the country has seen a staggering number of policies censoring classroom discussions around topics like race, sex, and gender identity. Coupled with these efforts are bans on books that also center around these subjects &ndash; bans which hinder students' ability to learn and talk about these critical topics that impact their daily lives. Test your knowledge about the current wave of classroom censorship measures, as well as some of the books being challenged.</p>
+								<p><a href="https://www.aclu.org/news/free-speech/pop-quiz-how-much-do-you-know-about-classroom-censorship?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="color: #ef404e;">Take our quiz</a></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- END OF ARTICLE 6 SECTION -->
+
+	<!-- START OF AT LIBERTY SECTION -->
+	<table role="presentation" align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-dark-section" width="600">
+		<tbody>
+			<!-- START OF SECTION HEADING -->
+			<tr>
+				<td class="section-title" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF; font-family: Arial, sans-serif; color: #EF404F; line-height: 20px; font-size: 18px;padding:40px 0px 20px 83px;">
+					<h2>AT LIBERTY PODCAST</h2>
+				</td>
+			</tr>
+			<!-- END OF SECTION HEADING -->
+			<tr>
+				<td align="center" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;padding-bottom:30px;">
+					<!-- START OF AT LIBERTY -->
+					<table role="presentation" class="mobile-table-width dm-article-inner-box" align="center" border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+						<!-- START OF AT LIBERTY IMAGE -->
+						<tr>
+							<td align="center" width="80%" valign="center" style="padding-bottom:30px;">
+								<a href="https://www.aclu.org/podcast/special-edition-strategies-for-the-end-of-roe?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail"><img src="https://media.sailthru.com/64d/1k4/1/9/5e1756c0c54ef.png" width="480" alt="At Liberty Podcast" class="full-width-image" /></a>
+							</td>
+						</tr>
+						<tr>
+							<!-- END OF AT LIBERTY IMAGE -->
+							<td bgcolor="#FFFFFF" width="40%" class="headline-text"
+								style="font-family: 'Times New Roman', Times, serif; color: #262626; line-height: 38px; font-size: 32px;text-align:left;padding:0px 20px 0px 20px;">
+								<h3><a href="https://www.aclu.org/podcast/special-edition-strategies-for-the-end-of-roe?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="text-decoration: none;font-weight:400;color: #0055AA;">Strategies for the End of Roe</a></h3>
+							</td>
+						</tr>
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="mobile-body-text dm-article-body" style="font-family: Arial, sans-serif; color: #262626; padding:0px 20px 0px 20px;">
+								<p>Following the leak of the Supreme Court draft opinion in <em>Dobbs,</em> we sat down with Brigitte Amiri, deputy director of our Reproductive Freedom Project. She breaks down what you need to know about the draft opinion and what's at stake, and what we're doing to protect abortion access.</p>
+								<p><a href="https://www.aclu.org/podcast/special-edition-strategies-for-the-end-of-roe?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="color: #ef404e;">Listen now</a> &nbsp;|&nbsp; <a href="https://www.aclu.org/podcast/podcast-at-liberty?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail" style="color: #ef404e;">More episodes</a></p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- END OF AT LIBERTY SECTION  -->
+
+	<!-- START OF ACTION SMS SIGNUP SECTION -->
+	<table role="presentation" align="center" bgcolor="#0055AA" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-light-section" width="600">
+		<tbody>
+			<!-- START OF SECTION HEADING -->
+			<tr>
+				<td class="section-title" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF; font-family: Arial, sans-serif; color: #FFFFFF; line-height: 20px; font-size: 18px;padding:40px 0 20px 83px;">
+					<h2>SIGN UP FOR ACLU TEXTS</h2>
+				</td>
+			</tr>
+			<!-- END OF SECTION HEADING -->
+			<tr>
+				<td align="center" width="100%" style="border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;padding-bottom:60px;">
+					<!-- START OF ACTION SMS SIGNUP -->
+					<table role="presentation" class="mobile-table-width dm-article-inner-box" align="center" border="0" cellpadding="0" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+
+						<tr>
+							<td bgcolor="#FFFFFF" width="40%" class="mobile-body-text dm-article-body" style="font-family: Arial, sans-serif; color: #262626; padding:20px 20px 0px 20px;">
+								<p style="font-size:20px;padding-left:15px;padding-right:15px;"><strong><span style="color:#EF404F">Text FIGHT to 82623</span></strong> to get breaking news and ways to help straight to your phone!</p>
+								<p style="font-size:12px;line-height:21px;padding-bottom:15px;padding-left:15px;">By texting to 82623, you are agreeing to receive phone calls and texts (including automated recurring text messages) from the ACLU and its state affiliates at the number provided. Message & Data Rates May Apply. Text STOP to opt out of automated texts. <a href="https://www.aclu.org/american-civil-liberties-union-privacy-statement">Privacy Statement.</a></p>
+							</td>
+						</tr>
+							<!-- END OF ACTION SMS SIGNUP -->
+					</table>
+				</td>
+			</tr>
+
+		</tbody>
+	</table>
+	<!-- END OF ACTION SMS SIGNUP SECTION -->
+
+
+	<!-- START OF FOOTER -->
+	<table role="presentation" align="center" bgcolor="#f2f2f2" border="0" cellpadding="0" cellspacing="0" class="wrapper dm-dark-section" width="600">
+		<tbody>
+			<tr>
+				<td style="text-align:left;font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;color:#505050;line-height:19px;padding:60px 0 20px 0;border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;">
+					<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="footer-left">
+						<tbody>
+							<tr>
+								<td align="center" valign="top" class="footer-left" style="font-family: Arial,'Helvetica Neue',sans-serif;font-size:16px;line-height:20px;color:#888888;">
+									<!-- START CTA BUTTON, make sure to update both links and adjust both widths as needed -->
+									<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+										<tr>
+											<td align="center">
+												<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<!-- IF YOU WANT TO CHANGE THE BUTTON COLOR YOU WILL NEED TO UPDATE BGCOLOR IN THE TD AND THE BORDER COLOR IN THE A TAGS. -->
+														<td align="center" bgcolor="#ef404e">
+															<a role="button" href="https://action.aclu.org/give/protect-rights-freedoms-we-believe-4?initms_aff=nat&initms_chan=eml&utm_medium=eml&initms=220528_newsletter_newslettersubs_sail&utm_source=sail&utm_campaign=newsletter&utm_content=220528_civilliberties_newslettersubs&gs={sb_gift_string_encrypted}&ms_aff=nat&ms_chan=eml&ms=220528_newsletter_newslettersubs_sail"
+																style="font-family: Arial, sans-serif; color: #ffffff; padding: 12px 18px; border: 1px solid #ef404e; display: inline-block;font-size:18px;font-weight:bold;text-align:center;text-decoration:none;text-transform: uppercase;">Donate
+																Now</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									<!-- END CTA BUTTON -->
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- START OF SOCIAL BUTTON SECION. REMOVE THE CODE BETWEEN THIS LINE AND END OF SOCIAL BUTTON SECTION BELOW IF YOU DO NOT WANT THIS SECTION TO APPEAR -->
+					<table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="footer-right">
+						<tbody>
+							<tr>
+								<td align="center" valign="top" class="footer-right" style="padding: 40px 0px 0px 0px;text-align:center;">
+									<a href="https://www.facebook.com/aclu"><img src="https://media.sailthru.com/64d/1k3/a/o/5db1cb21b75bf.png" border="0" alt="Facebook" width="33" /></a> &nbsp; &nbsp; <a href="https://twitter.com/aclu"><img
+											src="https://media.sailthru.com/64d/1k3/a/o/5db1cb153c9f8.png" border="0" alt="Twitter" width="33" /></a> &nbsp; &nbsp; <a href="https://www.instagram.com/aclu_nationwide/"><img
+											src="https://media.sailthru.com/64d/1k3/a/o/5db1cb1be2cb6.png" border="0" alt="Instagram" width="33" /></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<!-- END OF SOCIAL BUTTON SECTION -->
+				</td>
+			</tr>
+			<!-- START FOOTER INFO -->
+			<tr>
+				<td align="center" class="footer-text"
+					style="color:#727272;font-family: Arial,'Helvetica Neue',sans-serif;font-size:14px;line-height:20px;padding:15px 30px;border-left: 2px solid #CFCFCF;border-right: 2px solid #CFCFCF;border-bottom: 2px solid #CFCFCF;">
+					This email was sent to: <strong>{email}</strong><br />
+					<br />
+					<a href="https://action.aclu.org/preference-center/aclu-action-national-email-preference?&eid={email_id}&referral=ActionNational&unsub_url={optout_confirm_url}" style="color:#727272;">Unsubscribe</a><br />
+					<br />
+					Please note: If you forward or distribute, the links will open a page with your information filled in.<br />
+					<br />
+					We respect your right to privacy &ndash; <a href="https://www.aclu.org/american-civil-liberties-union-privacy-statement" style="color:#727272;">view our policy.</a><br />
+					<br />
+					This email was sent by:<br />
+					American Civil Liberties Union<br />
+					125 Broad Street, 18th Floor<br />
+					New York, NY 10004, USA<br />
+				</td>
+			</tr>
+			<!-- END FOOTER INFO -->
+		</tbody>
+	</table>
+	<!-- END OF FOOTER -->
+	<style data-ignore-inlining>
+		@media print {
+			#_t {
+				background-image: url('https://acaz7uyk.emltrk.com/acaz7uyk?p&d={email_id}');
+			}
+		}
+
+		div.OutlookMessageHeader {
+			background-image:url('https://acaz7uyk.emltrk.com/acaz7uyk?f&d={email_id}')
+		}
+
+		table.moz-email-headers-table {
+			background-image:url('https://acaz7uyk.emltrk.com/acaz7uyk?f&d={email_id}')
+		}
+
+		blockquote #_t {
+			background-image:url('https://acaz7uyk.emltrk.com/acaz7uyk?f&d={email_id}')
+		}
+
+		#MailContainerBody #_t {
+			background-image:url('https://acaz7uyk.emltrk.com/acaz7uyk?f&d={email_id}')
+		}
+	</style>
+	<div id="_t"></div>
+
+	<img src="https://acaz7uyk.emltrk.com/acaz7uyk?d={email_id}" width="1" height="1" border="0" alt="" />
+</body>
+
+</html>
