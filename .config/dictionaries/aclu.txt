@@ -43,6 +43,7 @@ defund
 defunding
 dev
 DIY
+doula
 duplicative
 emailbodytext
 emailcolsplit
@@ -130,9 +131,11 @@ phonelines
 powerstory
 PPC
 preheader
+pridecentervt
 protectthevote
 reclass
 registertovote
+reoffend
 RFFA
 riaclu
 rideshare
@@ -141,6 +144,7 @@ RREC
 rspace
 RTD
 Scottsbluff
+Shakesqueer
 sidebox
 SNCC
 socioemotional
