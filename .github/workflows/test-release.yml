@@ -12,8 +12,8 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  Test:
-    name: 🚨 Test 🚨
+  Release:
+    name: 🚨 Test Release 🚨
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:

@@ -1,4 +1,4 @@
-name: Test
+name: Dev
 
 on: push
 
@@ -31,3 +31,4 @@ jobs:
 
       - name: 🚨 Test
         run: npm run test
+
