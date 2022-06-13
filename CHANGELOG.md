@@ -1,5 +1,7 @@
 # Changelog
 
+# [1.4.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.3.0...v1.4.0) (2022-06-13)
+
 # [1.3.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.2.0...v1.3.0) (2022-06-13)
 
 # [1.2.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.1.0...v1.2.0) (2022-06-13)
