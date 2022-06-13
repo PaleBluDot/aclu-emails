@@ -15,6 +15,7 @@ Alsobrooks
 Amanuel
 Amarasingham
 Anacostia
+Angwin
 Anpetu
 Apatow
 Arandes
@@ -30,6 +31,7 @@ Balkissoon
 Baronne
 Baytree
 Begich
+Bester
 Bettina
 Bever
 Beyea
@@ -133,6 +135,8 @@ Haydel
 Healy
 Helsing
 Higham
+Hochul
+Homayra
 Homewood
 Hornbuckle
 Hossain
@@ -142,6 +146,7 @@ Ige
 Ivey
 Jayme
 Jen
+Jhovanka
 Jimenez
 Jiménez
 Jorgensen
@@ -162,6 +167,7 @@ Khizr
 Khogali
 Kiesel
 Kitaba
+Knaack
 Kodi
 Korryn
 Kress
@@ -191,17 +197,21 @@ Mancheno
 Manchin
 Mānoa
 Marena
+Markey
 Matayoshi
 Mateo
 Mauree
 Mawr
 Mayweather
 McDade
+McKenna
 Mechen
 Melita
 Mendenhall
 Meriden
+Meriwether
 Midazolam
+Minow
 Monico
 Morial
 Mosby
@@ -230,6 +240,7 @@ Pansing
 Patinella
 Patrisse
 Paulding
+Pavel
 Peeples
 Pell
 Penrose
@@ -243,6 +254,8 @@ Questlove
 Rabinovitz
 Raimondo
 Rakibullah
+Ramis
+Raney
 Rashid
 Rashika
 Rateliff
@@ -317,6 +330,7 @@ Valentina
 Valentino
 Venugopal
 Vroman
+Wadood
 Wasilla
 Waśté
 Waterston
@@ -338,3 +352,4 @@ Yiannopolous
 Yiannopoulos
 Zafar
 Zager
+Ziad
