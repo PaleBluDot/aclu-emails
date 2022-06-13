@@ -6,41 +6,37 @@
 			{
 				"name": "aclu",
 				"path": "../.config/dictionaries/aclu.txt",
+				"description": "Commongly used words at the ACLU",
 				"addWords": true
 			},
 			{
 				"name": "flags",
 				"path": "../.config/dictionaries/flags.txt",
+				"description": "Words that should be flagged for emails",
 				"addWords": true
 			},
 			{
 				"name": "medical",
 				"path": "../.config/dictionaries/medical.txt",
+				"description": "medical terms",
 				"addWords": true
 			},
 			{
 				"name": "names",
 				"path": "../.config/dictionaries/names.txt",
-				"addWords": true
-			},
-			{
-				"name": "lorem",
-				"path": "~/.config/dictionaries/lorem.txt",
-				"addWords": true
-			},
-			{
-				"name": "locations",
-				"path": "~/.config/dictionaries/locations.txt",
+				"description": "names of people",
 				"addWords": true
 			},
 			{
 				"name": "spanish",
 				"path": "../.config/dictionaries/spanish.txt",
+				"description": "Spanish words",
 				"addWords": true
 			},
 			{
 				"name": "sort",
 				"path": "../.config/dictionaries/sort.txt",
+				"description": "Need to be sorted in categories",
 				"addWords": true
 			}
     ]
