@@ -1,0 +1,93 @@
+{
+	"SB Social Share": {
+		"prefix": "sb:social",
+		"body": [
+			"[sb_social:share_links] "
+		],
+		"description": "SB Social Share"
+	},
+	"Action closed Message": {
+		"prefix": "sb:expired",
+		"body": [
+			"<p><strong style=\"text-transform:uppercase;\">The action is now expired!</strong><br />",
+			"Please visit our <a href=\"$1\">website</a> to stay up-to-date on our latest actions.</p>"
+		],
+		"description": "Action expiration messaging",
+	},
+	"Closed Event Message": {
+		"prefix": "sb:closed",
+		"body": [
+			"<p><strong style=\"text-transform:uppercase;\">Online registration for this event is now closed!</strong><br />",
+			"Please visit our <a href=\"$1\">website</a> to stay up-to-date with our upcoming events.</p>"
+		],
+		"description": "Closed messaging for event",
+	},
+	"Confirmation Email and Page": {
+		"prefix": "sb:confirm",
+		"body": [
+			"<p>Dear {% if donation.donation.first_name %}{{ donation.donation.first_name }}{% elseif webform.sbp_first_name %}{{ webform.sbp_first_name }}{% else %}friend{% endif %},<br/><br/></p>",
+			"",
+			"<p>Thank you for taking action to protect civil liberties in [springboard_group:group_names]. This is an important issue and your lawmakers need to hear from you.</p>",
+			"",
+			"<p>Take the next step and share this ${1|action,event|} with your friends on <a href=\"\"><strong>Facebook</strong></a> and <a href=\"\"><strong>Twitter</strong></a>.</p>",
+			"",
+			"<p>Thank you for your support!</p>",
+			"",
+			"<p><a href=\"[springboard_group:field_sb_group_web_url]\">[springboard_group:group_names]</a></p>"
+		],
+		"description": "Confirmation Email and Page",
+	},
+	"Contact code": {
+		"prefix": "sb:questions",
+		"body": [
+				"<p style=\"padding-right:50px;\"><strong>Questions?</strong> Please contact <a href=\"mailto:$1\">$2</a> or call at $3-$4-$5.</p>"
+		],
+		"description": "Contact code",
+	},
+	"Event": {
+		"prefix": "sb:event",
+		"body": [
+			"<blockquote>",
+			"\t<p><a href=\"#\"><strong>Event Title</strong></a><br />",
+			"\tDay, Month xx, x p.m. <br />",
+			"\tEvent location <br />",
+			"\tEvent Address <br />",
+			"\tCity, State Zip </p>",
+			"</blockquote>"
+		],
+		"description": "Event blockquote",
+	},
+	"Recipients": {
+		"prefix": "sb:recipients",
+		"body": [
+			"<p><strong>Message Recipients:</strong><br />",
+			"\tYour State Senator<br />",
+			"\tYour State Representatives",
+			"</p>"
+		],
+		"description": "Message action Recipients",
+	},
+	"Affiliate Home Link": {
+		"prefix": "sb:link",
+		"body": [
+			"<a href=\"[springboard_group:field_sb_group_web_url]\">[springboard_group:group_names]</a>"
+		],
+		"description": "Affiliate Home Link",
+	},
+	"Springboard Image": {
+		"prefix": "sb:image",
+		"body": [
+			"<div class=\"hero-item\">",
+			"\t<img alt=\"$1\" src=\"$2\" />",
+			"</div>"
+		],
+		"description": "Springboard Image",
+	},
+	"Twitter Meta SB": {
+		"prefix": "sb:meta",
+		"body": [
+			"<meta name=\"twitter:image\" content=\"https://action.aclu.org/files/aclu/al-willie-s-banner.png\" />"
+		],
+		"description": "Twitter Meta SB",
+	},
+}
