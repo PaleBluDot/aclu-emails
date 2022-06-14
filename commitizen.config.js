@@ -20,10 +20,6 @@ const types = [
 		name: "📚 docs:\t Update to the documentation",
 	},
 	{
-		value: "build",
-		name: "🚀 build:\t Build system config",
-	},
-	{
 		value: "refactor",
 		name: "♻ refactor:\t Neither fixes nor adds a feature",
 	},
@@ -33,7 +29,7 @@ const types = [
 	},
 ];
 
-const scopes = ["component", "config", "data", "layout","website"].map((name) => ({
+const scopes = ["component", "data", "layout","website"].map((name) => ({
 	name,
 }));
 
