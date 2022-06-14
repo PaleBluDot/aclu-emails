@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/PaleBluDot/aclu-emails/compare/v1.5.0...v1.5.1) (2022-06-14)
+
+
+### Bug Fixes
+
+* critical package ([#27](https://github.com/PaleBluDot/aclu-emails/issues/27)) ([01cc07d](https://github.com/PaleBluDot/aclu-emails/commit/01cc07db25f2863fe55edaa7339761ad163885d6))
+
 # [1.5.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.4.0...v1.5.0) (2022-06-13)
 
 # [1.4.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.3.0...v1.4.0) (2022-06-13)
