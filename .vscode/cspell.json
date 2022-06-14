@@ -1,7 +1,9 @@
 {
     "version": "0.2",
     "language": "en",
-		"dictionaries": ["aclu", "flags", "medical", "names","lorem", "locations", "spanish", "sort"],
+		"maxNumberOfProblems": 200,
+		"useGitignore": true,
+		"dictionaries": ["aclu", "flags"],
 		"dictionaryDefinitions": [
 			{
 				"name": "aclu",
@@ -13,30 +15,6 @@
 				"name": "flags",
 				"path": "../.config/dictionaries/flags.txt",
 				"description": "Words that should be flagged for emails",
-				"addWords": true
-			},
-			{
-				"name": "medical",
-				"path": "../.config/dictionaries/medical.txt",
-				"description": "medical terms",
-				"addWords": true
-			},
-			{
-				"name": "names",
-				"path": "../.config/dictionaries/names.txt",
-				"description": "names of people",
-				"addWords": true
-			},
-			{
-				"name": "spanish",
-				"path": "../.config/dictionaries/spanish.txt",
-				"description": "Spanish words",
-				"addWords": true
-			},
-			{
-				"name": "sort",
-				"path": "../.config/dictionaries/sort.txt",
-				"description": "Need to be sorted in categories",
 				"addWords": true
 			}
     ]
