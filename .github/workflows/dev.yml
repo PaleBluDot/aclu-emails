@@ -3,8 +3,9 @@ name: Dev
 on:
   push:
     branches:
-      - !main
-      - !dev
+      - '!main'
+      - '!dev'
+      - '*'
 
 jobs:
   Test:
