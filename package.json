@@ -1,6 +1,6 @@
 {
   "name": "aclu-emails",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "A collection of all the emails I have coded for the ACLU.",
   "main": ".eleventy.js",
   "author": "Pavel Sanchez",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
-		"@palebludot/cspell-names": "^1.0.1",
+    "@palebludot/cspell-names": "^1.0.1",
     "commitizen": "^4.2.4",
     "commitlint": "^16.2.4",
     "concurrently": "^5.3.0",
