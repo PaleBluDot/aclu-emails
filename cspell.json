@@ -2,18 +2,18 @@
     "version": "0.2",
     "language": "en",
 		"maxNumberOfProblems": 200,
-		"useGitignore": true,
-		"dictionaries": ["aclu", "flags"],
+		"useGitignore": false,
+		"dictionaries": ["aclu", "flags", "personal"],
 		"dictionaryDefinitions": [
 			{
 				"name": "aclu",
-				"path": "../.config/dictionaries/aclu.txt",
+				"path": ".config/dictionaries/aclu.txt",
 				"description": "Commongly used words at the ACLU",
 				"addWords": true
 			},
 			{
 				"name": "flags",
-				"path": "../.config/dictionaries/flags.txt",
+				"path": ".config/dictionaries/flags.txt",
 				"description": "Words that should be flagged for emails",
 				"addWords": true
 			}
