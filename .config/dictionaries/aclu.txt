@@ -29,6 +29,7 @@ CN
 cohosted
 coloradogives
 comms
+conservatorships
 CORCRC
 Councilmember
 councilmembers
@@ -78,6 +79,7 @@ IRAP
 ivote
 Jabola
 jailable
+Jerseyans
 justvotecolorado
 KAFM
 Kandler
