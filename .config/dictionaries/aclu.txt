@@ -47,6 +47,7 @@ dev
 DIY
 doula
 duplicative
+DVRC
 emailbodytext
 emailcolsplit
 emailnomob
@@ -110,6 +111,7 @@ mobilecause
 MSDE
 MSNBC
 Musick
+myflorida
 NAPAWF
 networkforgood
 NLCHP
@@ -155,6 +157,7 @@ sidebox
 Skadden
 SNCC
 socioemotional
+SOE
 solnit
 SPLC
 StandwithDREAMers
@@ -169,6 +172,7 @@ unsub
 Utahn
 Utahns
 valign
+VBM
 videocasts
 VOTA
 VSPC
