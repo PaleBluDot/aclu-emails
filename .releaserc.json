@@ -10,7 +10,24 @@
 				]
 			}
 		],
-		"@semantic-release/release-notes-generator",
+		[
+			"@semantic-release/release-notes-generator",
+			{
+				"preset": "conventionalcommits",
+				"presetConfig": {
+					"types": [
+						{ "type": "build", "section": "Build", "hidden": true },
+						{ "type": "chore", "section": "Chores", "hidden": true },
+						{ "type": "docs", "section": "Documentation", "hidden": true },
+						{ "type": "email", "section": "Emails", "hidden": false },
+						{ "type": "feat", "section": "Features", "hidden": false },
+						{ "type": "fix", "section": "Bug Fixes", "hidden": false },
+						{ "type": "refactor", "section": "Refactors", "hidden": true },
+						{ "type": "test", "section": "Tests", "hidden": true }
+					]
+				}
+			}
+		],
 		[
 			"@semantic-release/changelog",
 			{
@@ -18,13 +35,13 @@
 			}
 		],
 		"@semantic-release/npm",
-		"@semantic-release/github",
 		[
 			"@semantic-release/git",
 			{
 				"assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
 				"message": "chore(release): 🏷️ v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
 			}
-		]
+		],
+		"@semantic-release/github"
 	]
 }
