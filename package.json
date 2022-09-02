@@ -24,6 +24,7 @@
     "commitizen": "^4.2.4",
     "commitlint": "^16.2.4",
     "concurrently": "^5.3.0",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "cross-env": "^7.0.3",
     "cspell": "^5.6.6",
     "cz-customizable": "^6.3.0",
