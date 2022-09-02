@@ -6,7 +6,7 @@ on:
       - "+([0-9])?(.{+([0-9]),x}).x"
       - alpha
       - beta
-      - dev
+      - emails
       - next
       - next-major
     types: [opened, synchronize, reopened]
@@ -56,7 +56,7 @@ jobs:
               '+([0-9])?(.{+([0-9]),x}).x',
               'main',
               'next',
-              'dev',
+              'emails',
               'next-major',
               {name: 'beta', prerelease: true},
               {name: 'alpha', prerelease: true}
