@@ -92,6 +92,7 @@ laaclu
 lege
 letstalkabortionindiana
 LGBTQ
+LGBTQIA
 likeminded
 linkname
 livestream
@@ -120,6 +121,8 @@ nonbinary
 NOPD
 Norcal
 NYCLU
+NYPD
+NYPD’s
 nytimes
 offences
 Ohana
@@ -152,6 +155,7 @@ RREC
 rspace
 RTD
 Scottsbluff
+SDR
 Shakesqueer
 sidebox
 Skadden
@@ -160,6 +164,7 @@ socioemotional
 SOE
 solnit
 SPLC
+SRG
 StandwithDREAMers
 Suevon
 supermajority
