@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.9.0...v1.10.0) (2022-09-02)
+
+
+### Emails
+
+* sheriff primaries ([69dc6e2](https://github.com/PaleBluDot/aclu-emails/commit/69dc6e2828a22fc39e914ebc24da5e30381f7c3b))
+* trans rights ([2e79566](https://github.com/PaleBluDot/aclu-emails/commit/2e79566855189cb2e2c00488082e01300caf6f76))
+
 # [1.9.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.8.0...v1.9.0) (2022-08-29)
 
 # [1.8.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.7.0...v1.8.0) (2022-07-27)
