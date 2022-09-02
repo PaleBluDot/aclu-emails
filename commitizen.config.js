@@ -1,7 +1,7 @@
 const types = [
 	{
 		value: "email",
-		name: "✉️  email:\t  A new email production",
+		name: "✉️  email:\t A new email production",
 	},
 	{
 		value: "feat",
@@ -29,7 +29,7 @@ const types = [
 	},
 ];
 
-const scopes = ["component", "data", "layout","website"].map((name) => ({
+const scopes = ["component", "data", "dictionary", "layout", "website"].map((name) => ({
 	name,
 }));
 
