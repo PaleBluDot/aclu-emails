@@ -10,5 +10,6 @@
 	"files.exclude": {
 		"**/node_modules": true
 	},
-	"cSpell.useGitignore": false
+	"cSpell.useGitignore": false,
+	"liveServer.settings.port": 5501
 }
