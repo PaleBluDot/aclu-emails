@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.10.0...v1.11.0) (2023-01-09)
+
+
+### Emails
+
+* end of year ([16a7987](https://github.com/PaleBluDot/aclu-emails/commit/16a79872ff94106905e17de7cac1d8fd63900880))
+
 ## [1.10.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.9.0...v1.10.0) (2022-09-02)
 
 
