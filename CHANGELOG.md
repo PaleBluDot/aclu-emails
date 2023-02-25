@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.11.0...v1.12.0) (2023-02-25)
+
+
+### Emails
+
+* repo day of action ([43f1ea5](https://github.com/PaleBluDot/aclu-emails/commit/43f1ea5073b1b812b69549c69d5139ef6af8ecee))
+
 ## [1.11.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.10.0...v1.11.0) (2023-01-09)
 
 
