@@ -3,12 +3,12 @@
     "language": "en",
 		"maxNumberOfProblems": 200,
 		"useGitignore": false,
-		"dictionaries": ["aclu", "flags", "personal"],
+		"dictionaries": ["aclu", "flags"],
 		"dictionaryDefinitions": [
 			{
 				"name": "aclu",
 				"path": ".config/dictionaries/aclu.txt",
-				"description": "Commongly used words at the ACLU",
+				"description": "Commonly used words at the ACLU",
 				"addWords": true
 			},
 			{
