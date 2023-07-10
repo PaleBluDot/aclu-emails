@@ -111,6 +111,13 @@
 		],
 		"description": "CTA Button",
 	},
+	"divider": {
+		"prefix": "diviver",
+		"body": [
+			"<hr style=\"height:1px;border-width:0;color:#d4d4d4;background-color:#d4d4d4;width: 80%;text-align:center; margin: 40px auto;\" />"
+		],
+		"description": "divider"
+	},
 	"Event Box": {
 		"prefix": "event-box",
 		"body": [
