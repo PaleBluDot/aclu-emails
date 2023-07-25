@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.14.0...v1.15.0) (2023-07-25)
+
+
+### Features
+
+* repo rights ([510613c](https://github.com/PaleBluDot/aclu-emails/commit/510613cc0de9dd92242dad8d2e5d911ae0d5b20a))
+
 ## [1.14.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.13.0...v1.14.0) (2023-07-18)
 
 
