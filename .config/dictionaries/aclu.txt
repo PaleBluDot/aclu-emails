@@ -1,12 +1,14 @@
-acludc
-aclufl
+ACLUDC
+ACLUFL
 ACLUGA
-acluhawaii
+ALCUGA
+ACLUHAWAII
+LAACLU
+RIACLU
 actionnetwork
 acvote
 advo
 alabamavotes
-ALCUGA
 Amara
 Analytica
 anchorlock
@@ -89,7 +91,6 @@ keiki
 KITV
 kokua
 kupuna
-laaclu
 lege
 letstalkabortionindiana
 LGBTQ
@@ -98,6 +99,7 @@ likeminded
 linkname
 livestream
 livestreamed
+LLP
 lockdown
 LRADs
 lspace
@@ -150,7 +152,6 @@ reclass
 registertovote
 reoffend
 RFFA
-riaclu
 rideshare
 roomkey
 RREC
