@@ -6,9 +6,11 @@
 	"cSpell.minWordLength": 2,
 	"cSpell.enabledLanguageIds": ["markdown", "plaintext", "html"],
 	"editor.formatOnSave": false,
+	"editor.formatOnPaste": true,
 	"editor.wordWrapColumn": 80,
 	"files.exclude": {
 		"**/node_modules": true
 	},
-	"cSpell.useGitignore": false
+	"cSpell.useGitignore": false,
+	"prettier.configPath": ".prettierrc"
 }
