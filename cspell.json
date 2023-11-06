@@ -1,21 +1,52 @@
 {
-    "version": "0.2",
-    "language": "en",
-		"maxNumberOfProblems": 200,
-		"useGitignore": false,
-		"dictionaries": ["aclu", "flags"],
-		"dictionaryDefinitions": [
-			{
-				"name": "aclu",
-				"path": ".config/dictionaries/aclu.txt",
-				"description": "Commonly used words at the ACLU",
-				"addWords": true
-			},
-			{
-				"name": "flags",
-				"path": ".config/dictionaries/flags.txt",
-				"description": "Words that should be flagged for emails",
-				"addWords": true
-			}
-    ]
+	"version": "0.2",
+	"language": "en",
+	// "caseSensitive": true,
+	"maxNumberOfProblems": 200,
+	"useGitignore": false,
+	"languageSettings": [
+		{
+			"languageId": "*",
+			"caseSensitive": false
+		}
+	],
+	"dictionaries": ["aclu", "flags"],
+	"dictionaryDefinitions": [
+		{
+			"name": "aclu",
+			"path": ".config/dictionaries/aclu.txt",
+			"description": "Commonly used words at the ACLU",
+			"addWords": true
+		},
+		{
+			"name": "flags",
+			"path": ".config/dictionaries/flags.txt",
+			"description": "Words that should be flagged for emails",
+			"addWords": true
+		}
+	],
+	"flagWords": [
+		"terorist: acts of terror",
+		"terrorism: acts of terror",
+		"hate: dislike",
+		"abortions: abortion, abortion care",
+		"pro-choice: pro-reproductive freedom",
+		"sex change: gender-affirming care",
+		"Asian-American: Asian American",
+		"Indian-American: Indian American",
+		"African-American: African American",
+		"Muslim-American: Muslim American",
+		"Extremist: White supremacist violence",
+		"illegal: neighbors, loved ones, community",
+		"alien: neighbors, loved ones, community",
+		"White: white",
+		"inmate: incarcerated person, person detained in jail, person detained in prison, formally incarcerated person, on parole, returning to the community",
+		"convit music: incarcerated person, person detained in jail, person detained in prison, formally incarcerated person, on parole, returning to the community",
+		"felon: incarcerated person, person detained in jail, person detained in prison, formally incarcerated person, on parole, returning to the community",
+		"offenders: incarcerated person, person detained in jail, person detained in prison, formally incarcerated person, on parole, returning to the community",
+		"civilians: incarcerated person, person detained in jail, person detained in prison, formally incarcerated person, on parole, returning to the community",
+		"parolee: incarcerated person, person detained in jail, person detained in prison, formally incarcerated person, on parole, returning to the community",
+		"probationer: incarcerated person, person detained in jail, person detained in prison, formally incarcerated person, on parole, returning to the community",
+		"criminals: incarcerated person, person detained in jail, person detained in prison, formally incarcerated person, on parole, returning to the community"
+	]
 }
