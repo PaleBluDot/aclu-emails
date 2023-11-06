@@ -1,5 +1,48 @@
 # Changelog
 
+## [1.15.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.14.0...v1.15.0) (2023-07-25)
+
+
+### Features
+
+* repo rights ([510613c](https://github.com/PaleBluDot/aclu-emails/commit/510613cc0de9dd92242dad8d2e5d911ae0d5b20a))
+
+## [1.14.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.13.0...v1.14.0) (2023-07-18)
+
+
+### Features
+
+* base page ([611e9b4](https://github.com/PaleBluDot/aclu-emails/commit/611e9b405201611b0071cab002a958a88615129b))
+
+## [1.13.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.12.0...v1.13.0) (2023-07-14)
+
+
+### Features
+
+* march to june ([b4c5dfa](https://github.com/PaleBluDot/aclu-emails/commit/b4c5dfa3fd911424569e9f82b72042f9d7f3590b))
+* new divider snippet ([c532fc0](https://github.com/PaleBluDot/aclu-emails/commit/c532fc0824e846a44e1bbd367608e21f922bb7a4))
+* new email ([8a1bdc9](https://github.com/PaleBluDot/aclu-emails/commit/8a1bdc9e5d945f6c45d87bda93f62af2f9743e00))
+* new words ([2650e2a](https://github.com/PaleBluDot/aclu-emails/commit/2650e2a48a393370dc30371a7085be483ab0e501))
+
+
+### Bug Fixes
+
+* convert to json ([4790915](https://github.com/PaleBluDot/aclu-emails/commit/479091509611b27326e406893f64c3c2f12f4699))
+
+## [1.12.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.11.0...v1.12.0) (2023-02-25)
+
+
+### Emails
+
+* repo day of action ([43f1ea5](https://github.com/PaleBluDot/aclu-emails/commit/43f1ea5073b1b812b69549c69d5139ef6af8ecee))
+
+## [1.11.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.10.0...v1.11.0) (2023-01-09)
+
+
+### Emails
+
+* end of year ([16a7987](https://github.com/PaleBluDot/aclu-emails/commit/16a79872ff94106905e17de7cac1d8fd63900880))
+
 ## [1.10.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.9.0...v1.10.0) (2022-09-02)
 
 

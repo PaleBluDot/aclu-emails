@@ -4,7 +4,7 @@
 		"body": [
 			"[sb_social:share_links] "
 		],
-		"description": "SB Social Share"
+		"description": "Springboard Social Share"
 	},
 	"Action closed Message": {
 		"prefix": "sb:expired",

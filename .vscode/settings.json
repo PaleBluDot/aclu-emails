@@ -1,6 +1,7 @@
 {
 	"stylelint.snippet": ["css", "html"],
 	"cSpell.allowCompoundWords": false,
+  "cSpell.useGitignore": false,
 	"cSpell.maxNumberOfProblems": 100,
 	"cSpell.numSuggestions": 8,
 	"cSpell.minWordLength": 2,
@@ -11,6 +12,6 @@
 	"files.exclude": {
 		"**/node_modules": true
 	},
-	"cSpell.useGitignore": false,
+  "liveServer.settings.port": 5501,
 	"prettier.configPath": ".prettierrc"
 }
