@@ -1,6 +1,6 @@
 {
 	"version": "0.2",
-	"language": "en",
+	"language": "en,en-US",
 	// "caseSensitive": true,
 	"maxNumberOfProblems": 200,
 	"useGitignore": false,
@@ -10,7 +10,10 @@
 			"caseSensitive": false
 		}
 	],
-	"dictionaries": ["aclu", "flags"],
+	"dictionaries": [
+		"aclu",
+		"flags"
+	],
 	"dictionaryDefinitions": [
 		{
 			"name": "aclu",
