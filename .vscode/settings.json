@@ -1,17 +1,17 @@
 {
 	"stylelint.snippet": ["css", "html"],
 	"cSpell.allowCompoundWords": false,
-  "cSpell.useGitignore": false,
+	"cSpell.useGitignore": false,
 	"cSpell.maxNumberOfProblems": 100,
 	"cSpell.numSuggestions": 8,
 	"cSpell.minWordLength": 2,
 	"cSpell.enabledLanguageIds": ["markdown", "plaintext", "html"],
 	"editor.formatOnSave": false,
-	"editor.formatOnPaste": true,
+	"editor.formatOnPaste": false,
 	"editor.wordWrapColumn": 80,
 	"files.exclude": {
 		"**/node_modules": true
 	},
-  "liveServer.settings.port": 5501,
+	"liveServer.settings.port": 5501,
 	"prettier.configPath": ".prettierrc"
 }
