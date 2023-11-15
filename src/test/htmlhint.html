@@ -1,0 +1,122 @@
+---
+front-matter: true
+---
+<!-- HTMLHINT Rule: doctype-first -->
+<!DOCTYPE html>
+<!-- HTMLHINT Rule: html-lang-require -->
+<html lang="">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- HTMLHINT Rule: head-script-disabled -->
+	<script>document.querySelector("body")</script>
+
+</head>
+<body>
+	<section>
+		<h2>Head</h2>
+		<!-- HTMLHINT Rule: title-require -->
+		<title></title>
+
+		<!-- HTMLHINT Rule: script-disabled -->
+
+		<script>document.querySelector("body")</script>
+		<!-- HTMLHINT Rule: style-disabled -->
+		<style>
+			body {
+				background: pink;
+			}
+		</style>
+	</section>
+
+	<section>
+		<h2>Attributes</h2>
+		<!-- HTMLHINT Rule: attr-lowercase -->
+		<img SRC="test.png" ALT="test" />
+
+		<!-- HTMLHINT Rule: attr-no-duplication -->
+		<img src="a.png" src="b.png" />
+
+		<!-- HTMLHINT Rule: attr-no-unnecessary-whitespace -->
+		<div title= "xa"></div>
+
+		<!-- HTMLHINT Rule: attr-unsafe-chars -->
+		<a href="https://vimeo.com/56931059‎\u0009‎">Sud Web 2012</a>
+
+		<!-- HTMLHINT Rule: attr-value-double-quotes -->
+		<a href='https://pavelsanchez.com'>PavelSanchez.com</a>
+
+		<!-- HTMLHINT Rule: attr-value-not-empty -->
+		<input type="button" disabled />
+
+		<!-- HTMLHINT Rule: attr-sorted -->
+		<div type="type" img="image" id="id" font="font"></div>
+
+		<!-- HTMLHINT Rule: attr-whitespace -->
+		<div title=" a "></div>
+
+		<!-- HTMLHINT Rule: alt-require -->
+		<img src="test.png" />
+
+		<!-- HTMLHINT Rule: input-requires-label -->
+		<label for="some-id" /><input id="some-id" type="password" />
+	</section>
+
+	<section>
+		<h2>Tags</h2>
+		<!-- HTMLHINT Rule: tags-check -->
+		<a href="bbb" title="aaa" />
+
+		<!-- HTMLHINT Rule: tags-pair -->
+		<p>Considering the changes made to Florida's election laws earlier this year, it is crucial to lear how these revisions can impact you and your eligibility to vote.
+
+		<!-- HTMLHINT Rule: tag-self-close -->
+		<input type="text">
+
+		<!-- HTMLHINT Rule: tagname-lowercase -->
+		<SPAN></SPAN>
+
+		<!-- HTMLHINT Rule: tagname-specialchars -->
+		<@ href="link"></@>
+
+		<!-- HTMLHINT Rule: empty-tag-not-self-closed -->
+		<br />
+
+		<!-- HTMLHINT Rule: src-not-empty -->
+		<img src />
+
+		<!-- HTMLHINT Rule: href-abs-or-rel -->
+		<a href="http://www.alibaba.com/">test1</a>
+	</section>
+
+	<section>
+		<h2>ID</h2>
+		<!-- HTMLHINT Rule: id-class-ad-disabled -->
+		<div id="ad_container"></div>
+
+		<!-- HTMLHINT Rule: id-class-ad-disabled -->
+		dash: <div id="aaa_bbb"></div>
+
+		<!-- HTMLHINT Rule: id-unique -->
+		<div id="id1"></div><div id="id1"></div>
+	</section>
+
+	<section>
+		<h2>Inline</h2>
+		<!-- HTMLHINT Rule: inline-script-disabled -->
+		<img src="test.gif" onclick="alert(1);">
+
+		<!-- HTMLHINT Rule: inline-style-disabled -->
+		<div style="color:red"></div>
+	</section>
+
+	<section>
+		<h2>Formatting</h2>
+		<!-- HTMLHINT Rule: space-tab-mixed-disabled -->
+    <img src="space_before_tab.png" />
+
+		<!-- HTMLHINT Rule: space-tab-mixed-disabled -->
+		<span>aaa>bbb<ccc< /span>
+	</section>
+</body>
+</html>
