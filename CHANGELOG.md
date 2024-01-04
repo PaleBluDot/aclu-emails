@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.17.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.16.0...v1.17.0) (2024-01-04)
+
+
+### Emails
+
+* accompish together ([50b4907](https://github.com/PaleBluDot/aclu-emails/commit/50b49072a312e2d1a7992e3b774bd883b35959b4))
+* black friday ([bcb8eb0](https://github.com/PaleBluDot/aclu-emails/commit/bcb8eb014c38c755f93aaf557aa7844666b3203e))
+* eoy look forward ([ec2bae9](https://github.com/PaleBluDot/aclu-emails/commit/ec2bae9bd5d8b3c6d5604e398086c66fc6ed97aa))
+* priority survey ([29d90bf](https://github.com/PaleBluDot/aclu-emails/commit/29d90bfe9d63d736aede5ace84854ade0a2a9243))
+* video victories ([83c60ba](https://github.com/PaleBluDot/aclu-emails/commit/83c60ba242b8bb2113959d8edf776330bd5e1998))
+
 ## [1.16.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.15.0...v1.16.0) (2024-01-04)
 
 
