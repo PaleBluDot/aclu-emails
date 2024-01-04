@@ -7,9 +7,19 @@ on:
       - alpha
       - beta
       - emails
+      - dev
       - next
       - next-major
     types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - "+([0-9])?(.{+([0-9]),x}).x"
+      - alpha
+      - beta
+      - emails
+      - dev
+      - next
+      - next-major
 
 jobs:
   Release:
@@ -57,6 +67,7 @@ jobs:
               'main',
               'next',
               'emails',
+              'dev',
               'next-major',
               {name: 'beta', prerelease: true},
               {name: 'alpha', prerelease: true}
