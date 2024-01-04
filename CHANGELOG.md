@@ -1,5 +1,39 @@
 # Changelog
 
+## [1.16.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.15.0...v1.16.0) (2024-01-04)
+
+
+### Features
+
+* august emails ([62bd454](https://github.com/PaleBluDot/aclu-emails/commit/62bd4540fbcf3eace39995d91c4ade00de1ce68c))
+* fall emails ([#37](https://github.com/PaleBluDot/aclu-emails/issues/37)) ([d9a7ba3](https://github.com/PaleBluDot/aclu-emails/commit/d9a7ba3fb616b9ce28e94590c2b5739810f3e274)), closes [#34](https://github.com/PaleBluDot/aclu-emails/issues/34)
+* new emails ([#33](https://github.com/PaleBluDot/aclu-emails/issues/33)) ([fae8ba1](https://github.com/PaleBluDot/aclu-emails/commit/fae8ba14f09153adfed0d313fbfa1c6fc9fd0bc3))
+* new emails ([#35](https://github.com/PaleBluDot/aclu-emails/issues/35)) ([2d8ff46](https://github.com/PaleBluDot/aclu-emails/commit/2d8ff46de687796afa1b481459c42769a5354f95)), closes [#34](https://github.com/PaleBluDot/aclu-emails/issues/34)
+* newsletter ([d1e219f](https://github.com/PaleBluDot/aclu-emails/commit/d1e219fc7ddf038ae53e3da6ae5a558b4a7a03e4))
+* october emails ([5037eea](https://github.com/PaleBluDot/aclu-emails/commit/5037eea3fb399f020eff76f243da2b4f045fa5f3))
+* september emails ([7e5a836](https://github.com/PaleBluDot/aclu-emails/commit/7e5a836de94dfc167e42a7e1fa495ff030a0a44a))
+
+
+### Bug Fixes
+
+* make affiliate name uppercase ([71888bb](https://github.com/PaleBluDot/aclu-emails/commit/71888bb67c66e55003d9fdf22b736f4b288caa07))
+* update sb social share description ([36cf90c](https://github.com/PaleBluDot/aclu-emails/commit/36cf90c831eb1d06cef6a873bb05660a7fb49665))
+* update test blob ([58231f7](https://github.com/PaleBluDot/aclu-emails/commit/58231f7ed5eb45cf0ecfd7ba291a8a764fbb5fb9))
+
+
+### Emails
+
+* abortion on the ballot ([afb3b0f](https://github.com/PaleBluDot/aclu-emails/commit/afb3b0fa330e5da061efa3f82cde9853b6431f56))
+* decarceration ([2cbd00c](https://github.com/PaleBluDot/aclu-emails/commit/2cbd00cb48194cddacf5ee849aba6b065066f08d))
+* defend trans youth ([2fc04c5](https://github.com/PaleBluDot/aclu-emails/commit/2fc04c58e1845eb1b674a54e9dfe502fee9d2f19))
+* end of the year ([1360fe5](https://github.com/PaleBluDot/aclu-emails/commit/1360fe5952949db0a1d27ff5bd6b3154c6983fbc))
+* happy holidays ([8a494d0](https://github.com/PaleBluDot/aclu-emails/commit/8a494d00422ed1bd2006cfbfa18c6c736739a810))
+* immigration lawsuit ([bbe2997](https://github.com/PaleBluDot/aclu-emails/commit/bbe299731a997521a5d6dafca5de96dee76e2aa0))
+* old emails ([4bd42bf](https://github.com/PaleBluDot/aclu-emails/commit/4bd42bf600fd395d9c27aff2a50958eb09a89bb0))
+* summer 2023  ([#36](https://github.com/PaleBluDot/aclu-emails/issues/36)) ([6871ce9](https://github.com/PaleBluDot/aclu-emails/commit/6871ce9105b7f76ddbaf73dc19d53147d8530b41)), closes [#34](https://github.com/PaleBluDot/aclu-emails/issues/34)
+* volunteer house party ([b0fefd7](https://github.com/PaleBluDot/aclu-emails/commit/b0fefd756b6c0a068b03b0e31e11a6deb75ad4d8))
+* youth legislative committee ([7c8e6f6](https://github.com/PaleBluDot/aclu-emails/commit/7c8e6f6b38e0d88fca4207a36020075f3361fcd8))
+
 ## [1.15.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.14.0...v1.15.0) (2023-07-25)
 
 
