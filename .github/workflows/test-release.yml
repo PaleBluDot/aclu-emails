@@ -11,6 +11,15 @@ on:
       - next
       - next-major
     types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - "+([0-9])?(.{+([0-9]),x}).x"
+      - alpha
+      - beta
+      - emails
+      - dev
+      - next
+      - next-major
 
 jobs:
   Release:
