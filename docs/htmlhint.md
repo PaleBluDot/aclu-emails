@@ -1,0 +1,25 @@
+# HTML htmlhint
+
+`HTMLHINT` email rules specifically for ACLU emails.
+
+```json
+{
+	"alt-required": true,
+	"attr-no-unnecessary-whitespace:": true,
+	"attr-unsafe-chars": true,
+	"attr-value-not-empty": true,
+	"attr-value-double-quotes": true,
+	"doctype-html5": false,
+	"empty-tag-not-self-closed": false,
+	"head-script-disabled": true,
+	"href-abs-or-rel": false,
+	"id-class-ad-disabled": true,
+	"id-class-value": "dash",
+	"inline-script-disabled": true,
+	"inline-style-disabled": false,
+	"style-disabled:": false,
+	"tag-self-close": true,
+	"tag-pair": true,
+	"title-required": false
+}
+```
