@@ -1,11 +1,12 @@
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+	eleventyConfig.addLayoutAlias("index", "layouts/index.njk");
 	eleventyConfig.addLayoutAlias("sidebox", "layouts/sidebox.njk");
 	eleventyConfig.addLayoutAlias("standard", "layouts/standard.njk");
 	eleventyConfig.addLayoutAlias("banner", "layouts/banner.njk");
 	eleventyConfig.addLayoutAlias("event", "layouts/event.njk");
 
-	// eleventyConfig.addPassthroughCopy({"src/built/"});
+	eleventyConfig.setDataDeepMerge(true);
 
 	return {
 		htmlTemplateEngine: "njk",
