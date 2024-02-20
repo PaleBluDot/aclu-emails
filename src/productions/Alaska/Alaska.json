@@ -1,4 +1,5 @@
 {
 	"affiliate": "Alaska",
-	"tags": "Alaska, AK"
+	"affiliate_code": "ak",
+	"tags": ["Alaska", "AK"]
 }

@@ -1,4 +1,5 @@
 {
 	"affiliate": "Alabama",
-	"tags": "Alabama, AL"
+	"affiliate_code": "al",
+	"tags": ["Alabama", "AL"]
 }

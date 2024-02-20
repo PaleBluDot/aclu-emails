@@ -1,4 +1,5 @@
 {
 	"affiliate": "Maryland",
-	"tags": "Maryland, MD"
+	"affiliate_code": "md",
+	"tags": ["Maryland", "MD"]
 }

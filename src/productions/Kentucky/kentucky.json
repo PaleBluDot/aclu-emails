@@ -1,5 +1,5 @@
 {
-	"affiliate": "Kansas",
-	"tags": "Kansas, IN",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate": "Kentucky",
+	"affiliate_code": "ky",
+	"tags": ["Kentucky", "KY"]
 }

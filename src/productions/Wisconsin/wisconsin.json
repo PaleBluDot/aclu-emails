@@ -1,5 +1,5 @@
 {
 	"affiliate": "Wisconsin",
-	"tags": "Wisconsin, WI",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "wi",
+	"tags": ["Wisconsin", "WI"]
 }

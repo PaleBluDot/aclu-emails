@@ -1,5 +1,5 @@
 {
 	"affiliate": "West Virginia",
-	"tags": "West Virginia, WV",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "wv",
+	"tags": ["West Virginia", "WV"]
 }

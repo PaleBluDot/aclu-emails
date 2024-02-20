@@ -1,5 +1,5 @@
 {
 	"affiliate": "Wyoming",
-	"tags": "Wyoming, WY",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "wy",
+	"tags": ["Wyoming", "WY"]
 }

@@ -1,5 +1,5 @@
 {
 	"affiliate": "New Jersey",
-	"tags": "New Jersey, NJ",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "nj",
+	"tags": ["New Jersey", "NJ"]
 }

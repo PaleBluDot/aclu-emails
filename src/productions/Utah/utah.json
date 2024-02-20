@@ -1,4 +1,5 @@
 {
 	"affiliate": "Utah",
-	"tags": "Utah, UT"
+	"affiliate_code": "ut",
+	"tags": ["Utah", "UT"]
 }

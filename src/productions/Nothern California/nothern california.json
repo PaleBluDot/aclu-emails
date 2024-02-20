@@ -1,5 +1,5 @@
 {
 	"affiliate": "Northern California",
-	"tags": "Northern California, CN",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "cn",
+	"tags": ["Northern California", "CN"]
 }

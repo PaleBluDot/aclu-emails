@@ -1,4 +1,5 @@
 {
 	"affiliate": "New York",
-	"tags": "New York, NY"
+	"affiliate_code": "ny",
+	"tags": ["New York", "NY"]
 }

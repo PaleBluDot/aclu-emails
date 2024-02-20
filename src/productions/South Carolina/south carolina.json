@@ -1,4 +1,5 @@
 {
 	"affiliate": "South Carolina",
-	"tags": "South Carolina, SC"
+	"affiliate_code": "sc",
+	"tags": ["South Carolina", "SC"]
 }

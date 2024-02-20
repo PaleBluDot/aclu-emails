@@ -1,4 +1,5 @@
 {
 	"affiliate": "North Carolina",
-	"tags": "North Carolina, NC"
+	"affiliate_code": "nc",
+	"tags": ["North Carolina", "NC"]
 }

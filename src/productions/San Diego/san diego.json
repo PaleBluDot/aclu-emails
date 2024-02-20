@@ -1,4 +1,5 @@
 {
 	"affiliate": "San Diego",
-	"tags": "San Diego, CD"
+	"affiliate_code": "cd",
+	"tags": ["San Diego", "CD"]
 }

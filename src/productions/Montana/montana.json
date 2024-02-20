@@ -1,5 +1,5 @@
 {
 	"affiliate": "Montana",
-	"tags": "Montana, MT",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "mt",
+	"tags": ["Montana", "MT"]
 }

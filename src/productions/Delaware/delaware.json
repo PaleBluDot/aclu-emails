@@ -1,4 +1,5 @@
 {
 	"affiliate": "Delaware",
-	"tags": "Delaware, DE"
+	"affiliate_code": "de",
+	"tags": ["Delaware", "DE"]
 }

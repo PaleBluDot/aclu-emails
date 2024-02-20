@@ -1,4 +1,5 @@
 {
 	"affiliate": "Texas",
-	"tags": "Texas, TX"
+	"affiliate_code": "tx",
+	"tags": ["Texas", "TX"]
 }

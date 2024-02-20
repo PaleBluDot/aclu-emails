@@ -1,5 +1,5 @@
 {
 	"affiliate": "District of Columbia",
-	"tags": "District of Columbia, DC",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "dc",
+	"tags": ["District of Columbia", "DC"]
 }

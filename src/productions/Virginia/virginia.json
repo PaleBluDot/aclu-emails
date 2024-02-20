@@ -1,5 +1,5 @@
 {
 	"affiliate": "Virginia",
-	"tags": "Virginia, VA",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "va",
+	"tags": ["Virginia", "VA"]
 }

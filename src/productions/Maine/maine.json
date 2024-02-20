@@ -1,4 +1,5 @@
 {
 	"affiliate": "Maine",
-	"tags": "Maine, ME"
+	"affiliate_code": "me",
+	"tags": ["Maine", "ME"]
 }

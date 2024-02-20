@@ -1,4 +1,5 @@
 {
 	"affiliate": "Florida",
-	"tags": "Florida, FL"
+	"affiliate_code": "fl",
+	"tags": ["Florida", "FL"]
 }

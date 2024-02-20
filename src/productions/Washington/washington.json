@@ -1,4 +1,5 @@
 {
 	"affiliate": "Washington",
-	"tags": "Washington, WA"
+	"affiliate_code": "wa",
+	"tags": ["Washington", "WA"]
 }

@@ -1,4 +1,5 @@
 {
 	"affiliate": "Rhode Island",
-	"tags": "Rhode Island, RI"
+	"affiliate_code": "ri",
+	"tags": ["Rhode Island", "RI"]
 }

@@ -1,5 +1,5 @@
 {
 	"affiliate": "Colorado",
-	"tags": "Colorado, CO",
-	"permalink": "./{{affiliate}}/{{ page.fileSlug }}.html"
+	"affiliate_code": "co",
+	"tags": ["Colorado", "CO"]
 }

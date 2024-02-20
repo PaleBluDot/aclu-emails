@@ -1,4 +1,5 @@
 {
 	"affiliate": "Arkansas",
-	"tags": "Arkansas, AR"
+	"affiliate_code": "ar",
+	"tags": ["Arkansas", "AR"]
 }
