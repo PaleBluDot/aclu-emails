@@ -12,14 +12,14 @@
     "dev": "eleventy --serve",
     "clean": "rm -r dist",
     "format": "npx prettier --write dist",
-    "spell": "npx cspell \"src/productions/Alabama/**\"",
+    "spell": "npx cspell dist/",
     "lint": "npm-run-all lint:*",
     "build": "cross-env env=production eleventy",
     "test": "echo Test successfully run ✅",
     "commit": "git cz"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^2.0.1",
     "@palebludot/cspell-names": "^1.0.1",
     "commitizen": "^4.2.4",
     "commitlint": "^16.2.4",
@@ -44,7 +44,7 @@
   },
   "lint-staged": {
     "*.(js|md|css|html)": [
-      "npm run test"
+      "npm run format"
     ]
   },
   "config": {
@@ -52,7 +52,7 @@
       "path": "./node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": "commitizen.config.js"
+      "config": ".config/commitizen.config.js"
     }
   }
 }
