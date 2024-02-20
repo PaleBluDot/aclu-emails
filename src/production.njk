@@ -1,0 +1,20 @@
+---
+layout: index
+pagination:
+  data: productions.directories
+  size: 1
+  alias: directory
+permalink: "emails/{{ directory.name }}/index.html"
+---
+
+<h1>{{ directory.name }}</h1>
+
+<ol>
+  {%- for file in directory.files -%}
+    {%- set extension = file.split('.').pop() -%}
+    {%- if extension != 'json' -%}
+      {%- set filename = file.slice(0, -1 * (extension.length + 1)) -%}
+      <li style="margin-bottom: 5px;"><a href="/emails/{{ directory.name }}/{{ file }}"><strong>{{ filename }}</strong></a></li>
+    {%- endif -%}
+  {%- endfor -%}
+</ol>
