@@ -1,0 +1,36 @@
+---
+title: ACLU Email Productions
+layout: index
+tags: [email, production, aclu]
+---
+
+<h1>Custom Email Template Builder</h1>
+
+<p>Welcome to the ACLU custom email template repo. This was created to help us iterate thought different templates much faster than we could before. All of the components used have been tested through Litmus to ensure consistency across email clients.</p>
+
+<hr />
+{# <p>{{ page | dump | safe }}</p> #}
+
+<h2>Demos</h3>
+
+<ol>
+{%- for component in collections.demo  -%}
+	<li style="margin-bottom:10px;"><a href="{{component.data.page.url}}"><strong>{{component.data.page.fileSlug | capitalize}}</strong></a></li>
+{%- endfor  -%}
+</ol>
+
+<hr />
+
+<h2>Productions Total: <span style="font-weight: initial; font-style: 16px;"> {{ productions.totalFileCount }}</span></h2>
+
+<div class="grid">
+  {%- for directory in productions.directories -%}
+		<a href="/emails/{{ directory.name }}/index.html">
+			<div class="card">
+				<img src="{{ directory.logoUrl }}" alt="{{ directory.name }} logo" />
+			</div>
+		</a>
+  {%- endfor -%}
+</div>
+
+
