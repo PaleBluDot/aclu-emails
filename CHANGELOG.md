@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.18.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.17.0...v1.18.0) (2026-03-19)
+
+
+### Emails
+
+* **dictionary:** asnjanj ([63e9820](https://github.com/PaleBluDot/aclu-emails/commit/63e98206926cf355faacd160fc8b172d2ec93017))
+* latest email builds ([3816588](https://github.com/PaleBluDot/aclu-emails/commit/38165880f61d9f87ae140b1d811693f73aecb46b))
+
 ## [1.17.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.16.0...v1.17.0) (2024-01-04)
 
 
