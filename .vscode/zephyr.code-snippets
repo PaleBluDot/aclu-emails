@@ -1,0 +1,9 @@
+{
+	"Zephyr If/Else statement": {
+		"prefix": "ife",
+		"body": [
+			"<p>{if $1}$2{else}$3{/if}</p>"
+		],
+		"description": "Zephyr If/Else statement"
+	}
+}
