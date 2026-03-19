@@ -21,6 +21,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@palebludot/cspell-names": "^1.0.1",
+		"asana": "^3.1.2",
     "commitizen": "^4.2.4",
     "commitlint": "^16.2.4",
     "concurrently": "^5.3.0",

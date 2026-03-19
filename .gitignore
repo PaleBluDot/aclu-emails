@@ -6,6 +6,8 @@ vsc-extension-quickstart.md
 .netlify
 desktop.ini
 .npmrc
+sailthru-profile.json
+asana.js
 
 # Directories to Exclude #
 ######################
@@ -60,3 +62,12 @@ Thumbs.db
 .LSOverride
 test*.*
 report.*
+
+
+
+
+#Ignore insiders AI rules
+.github/instructions/codacy.instructions.md
+.codacy/codacy.yaml
+CLAUDE.md
+GEMINI.md
