@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.19.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.18.0...v1.19.0) (2026-11-08)
+
+
+### Emails
+
+* election protection ([ae28baa](https://github.com/PaleBluDot/aclu-emails/commit/ae28baaa7734fd580994b98c7f76ce33384c4d7a))
+* ice email ([99dfa4d](https://github.com/PaleBluDot/aclu-emails/commit/99dfa4df72c1aa8e12dc780cc5ae6b36d29433e1))
+* summer productions ([1725254](https://github.com/PaleBluDot/aclu-emails/commit/1725254859334dbff831381e1cacd57d430b935c))
+
 ## [1.18.0](https://github.com/PaleBluDot/aclu-emails/compare/v1.17.0...v1.18.0) (2026-03-19)
 
 
